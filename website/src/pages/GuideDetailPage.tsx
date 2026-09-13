@@ -64,6 +64,7 @@ function renderMarkdown(md: string): string {
     .replace(/^### (.*$)/gm, '<h3>$1</h3>')
     .replace(/^## (.*$)/gm, '<h2>$1</h2>')
     .replace(/^# (.*$)/gm, '<h1>$1</h1>')
+    .replace(/(?:^\|.*\|\s*$\n?){3,}/gm, block => renderTable(block))
     // Bold
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     // Italic
@@ -97,4 +98,12 @@ function renderMarkdown(md: string): string {
   html = html.replace(/(<hr \/>)<\/p>/g, '$1')
 
   return html
+}
+
+function renderTable(block: string): string {
+  const rows = block.trim().split('\n').map(row => row.trim()).filter(Boolean).map(row => row.replace(/^\|/, '').replace(/\|$/, '').split('|').map(cell => cell.trim()))
+  if (rows.length < 3 || !rows[1].every(cell => /^:?-{3,}:?$/.test(cell))) return block
+  const header = rows[0].map(cell => `<th>${cell}</th>`).join('')
+  const body = rows.slice(2).map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')
+  return `<div class="table-scroll"><table><thead><tr>${header}</tr></thead><tbody>${body}</tbody></table></div>`
 }

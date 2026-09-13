@@ -73,6 +73,12 @@ button, a, select, input { -webkit-tap-highlight-color: transparent; }
 .prose-hub ul { margin: 1rem 0; padding-left: 1.5rem; list-style: disc; }
 .prose-hub li { margin: .4rem 0; }
 .prose-hub hr { margin: 2.5rem 0; border-color: rgba(157,205,218,.13); }
+.prose-hub .table-scroll { margin: 1.5rem 0; overflow-x: auto; border: 1px solid rgba(157,205,218,.13); border-radius: .9rem; }
+.prose-hub table { width: 100%; min-width: 620px; border-collapse: collapse; font-size: .92rem; }
+.prose-hub th { background: rgba(126,220,227,.07); color: #d8edf0; font: 600 .72rem var(--font-mono); letter-spacing: .08em; text-align: left; text-transform: uppercase; }
+.prose-hub th, .prose-hub td { border-bottom: 1px solid rgba(157,205,218,.1); padding: .85rem 1rem; vertical-align: top; }
+.prose-hub td { color: #a9c0c8; }
+.prose-hub tr:last-child td { border-bottom: 0; }
 .reveal { animation: aihub-in .5s cubic-bezier(.2,.7,.2,1) both; }
 .reveal-delay-1 { animation-delay: .08s; }
 .reveal-delay-2 { animation-delay: .16s; }
