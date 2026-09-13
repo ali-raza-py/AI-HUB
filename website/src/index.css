@@ -59,6 +59,16 @@ button, a, select, input { -webkit-tap-highlight-color: transparent; }
 .interactive { transition: transform .2s ease, border-color .2s ease, background-color .2s ease, box-shadow .2s ease, color .2s ease; }
 .resource-card { background: linear-gradient(145deg, rgba(22, 43, 54, .9), rgba(11, 24, 33, .84)); border: 1px solid rgba(157, 205, 218, .12); box-shadow: 0 16px 44px rgba(0,0,0,.12); }
 .resource-card:hover { border-color: rgba(110, 215, 233, .36); transform: translateY(-4px); box-shadow: 0 20px 48px rgba(0,0,0,.22), 0 0 0 1px rgba(110,215,233,.06); }
+.reference-hero { background: #0b151c; }
+.reference-hero-grid { background-color: #0a1218; background-image: linear-gradient(rgba(155, 200, 210, .13) 1px, transparent 1px), linear-gradient(90deg, rgba(155, 200, 210, .13) 1px, transparent 1px); background-size: clamp(38px, 6vw, 88px) clamp(38px, 6vw, 88px); }
+.reference-grid-glow { position: absolute; inset: 0; background: radial-gradient(circle at 48% 48%, rgba(126, 220, 227, .16), transparent 18rem); animation: reference-pulse 5s ease-in-out infinite; }
+.hero-scanline { position: absolute; left: 0; right: 0; top: 0; height: 1px; background: #91f0e1; box-shadow: 0 0 24px 4px rgba(126, 220, 227, .35); animation: scanline 5s cubic-bezier(.6, 0, .4, 1) infinite; }
+.reference-arrow { display: inline-block; animation: reference-bounce 1.8s ease-in-out infinite; color: #a5f0e7; font-size: 15px; }
+.reference-hero-copy { background: #eef3f1; background-image: radial-gradient(circle at 80% 0%, rgba(126,220,227,.18), transparent 24rem); }
+.reference-title { font-size: clamp(3rem, 8.8vw, 9.5rem); letter-spacing: -.075em; line-height: .92; }
+.reference-bracket { color: #147be8; font-family: var(--font-mono); font-size: .78em; letter-spacing: -.1em; text-shadow: 0 0 28px rgba(20,123,232,.16); animation: bracket-flicker 4s steps(1, end) infinite; }
+.reference-marquee-track { animation: marquee 28s linear infinite; }
+.reference-marquee-track i { display: block; height: 4px; width: 4px; border-radius: 50%; background: #7edce3; }
 .prose-hub { color: #b9cbd1; font-size: 1rem; line-height: 1.85; }
 .prose-hub h1, .prose-hub h2, .prose-hub h3, .prose-hub h4 { color: #f1f8fa; line-height: 1.2; }
 .prose-hub h1 { margin: 0 0 2rem; font-size: clamp(2rem, 5vw, 3.5rem); }
@@ -100,3 +110,8 @@ html.light .page-grid { background-image: linear-gradient(rgba(43, 111, 126, .06
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
+@keyframes reference-pulse { 0%, 100% { opacity: .45; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.08); } }
+@keyframes scanline { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: 1; } 86% { opacity: 1; } 100% { transform: translateY(380px); opacity: 0; } }
+@keyframes reference-bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+@keyframes bracket-flicker { 0%, 85%, 100% { opacity: 1; } 88% { opacity: .65; } 90% { opacity: 1; } }
+@keyframes marquee { to { transform: translateX(-50%); } }
