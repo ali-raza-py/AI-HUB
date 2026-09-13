@@ -9,14 +9,14 @@ categories:
     Cursor, Windsurf, Zed, Trae, Kiro, etc.).
 
     '
-  parent: null
+  parent:
 - id: terminal-agents
   name: Terminal / CLI coding agents
   description: 'AI agents controlled from a terminal or command line. Many can read a repository, edit
     files, and execute commands.
 
     '
-  parent: null
+  parent:
 - id: open-source-byok
   name: Open-source / BYOK / local AI tools
   description: 'Tools distinguished by open-source licensing, bring-your-own-key model access, and/or
@@ -24,14 +24,14 @@ categories:
     A and B and are tracked per-tool in tools.yaml, not as separate products.
 
     '
-  parent: null
+  parent:
 - id: autonomous-agents
   name: Autonomous software-engineering agents
   description: 'Agents designed to work on a task end-to-end with minimal human intervention: plan, edit,
     test, iterate, and produce a pull request.
 
     '
-  parent: null
+  parent:
 - id: app-builders
   name: AI app / UI / full-stack builders
   description: 'Hosted products that generate, deploy, and iterate on applications from natural-language
@@ -39,14 +39,14 @@ categories:
     inside one product.
 
     '
-  parent: null
+  parent:
 - id: documentation-tools
   name: Documentation generation / platform tools
   description: 'Documentation generators, AI documentation assistants, documentation platforms, API reference
     platforms, and developer portals.
 
     '
-  parent: null
+  parent:
 subcategories:
 - id: editor-agent
   name: Editor/IDE native agent (VS Code extension host)
@@ -108,3 +108,22 @@ subcategories:
   name: Browser-hosted IDE
   parent: vscode-ide-agents
   description: Browser-hosted IDE with integrated AI coding/building (e.g., Firebase Studio).
+- id: open-agent
+  name: Open-source autonomous agent (self-hosted)
+  parent: autonomous-agents
+  description: Open-source autonomous software-engineering agent you run yourself (locally or 
+    self-hosted).
+- id: code-review-bot
+  name: Autonomous PR / code-review agent
+  parent: autonomous-agents
+  description: GitHub/GitLab-integrated agents that autonomously review pull requests and propose 
+    fixes.
+- id: local-ai-runtime
+  name: Local model runtime / chat app
+  parent: open-source-byok
+  description: Tools for running local models on your own hardware (model runners, local chat apps, 
+    local OpenAI-compatible APIs).
+- id: terminal-assistant
+  name: General LLM assistant for the terminal
+  parent: terminal-agents
+  description: General-purpose LLM CLI assistants (not full repo-editing agents).

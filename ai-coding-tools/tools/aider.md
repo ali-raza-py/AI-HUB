@@ -1,9 +1,8 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # Aider
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 3 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Open-source terminal pair-programming tool; supports many cloud and local LLMs; repo map; git auto-commit; linter/test loop (verified Sep 2026).
 
@@ -16,7 +15,7 @@ Terminal-first editing with tight git integration and many model options.
 ## Official Links
 
 - [Official website](https://aider.chat/)
-- Documentation — not verified, check official website
+- [Documentation](https://aider.chat/docs/)
 - [GitHub](https://github.com/Aider-AI/aider)
 - Pricing: see the official pricing page via the website link above.
 
@@ -49,7 +48,7 @@ Known limitations: Pair-programming (edit) focus rather than full autonomy; you 
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Terminal / CLI
 
 ## Supported Models
 
@@ -71,20 +70,20 @@ Free, open source, BYOK (model API costs only).
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: https://github.com/Aider-AI/aider
+- Repository: <https://github.com/Aider-AI/aider>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://aider.chat/)
+- [Official install/setup docs](https://aider.chat/docs/)
 
 ## Basic Usage
 
@@ -143,11 +142,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **excellent** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Excellent**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Light client; heavy inference happens in the cloud or via BYOK. Local inference (Ollama) on 8 GB RAM is limited to small models (~1–4 B) and will be slow on this CPU-only machine — fine for experimentation, not for daily heavy agent work. Stated requirements: Any (Python)..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -158,7 +159,7 @@ Light client; heavy inference happens in the cloud or via BYOK. Local inference 
 ## Sources
 
 - [Official website](https://aider.chat/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://aider.chat/docs/)
 - [Source repository](https://github.com/Aider-AI/aider)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -166,5 +167,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

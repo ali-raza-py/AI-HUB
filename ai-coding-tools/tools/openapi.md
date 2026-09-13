@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Unknown — not verified.
 
-
 Industry-standard OpenAPI spec + Swagger UI/Editor/Codegen tooling. Not AI-powered; a spec + doc ecosystem.
 
 ## Overview
@@ -47,7 +46,7 @@ Known limitations: UI/docs less modern that newer platforms.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -69,13 +68,13 @@ Open source core; paid SwaggerHub.
 | BYOK | Unknown |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0 (Swagger UI, Editor)**
-- Repository: https://github.com/OAI/OpenAPI-Specification
+- Repository: <https://github.com/OAI/OpenAPI-Specification>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
@@ -129,11 +128,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **excellent** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Excellent**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Light client; heavy inference happens in the cloud or via BYOK.
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -152,4 +153,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

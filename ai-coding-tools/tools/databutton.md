@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: unknown · Autonomy: Level 2 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 Status not verified for 2026-09 — check the official site before relying on the product.
 
 ## Overview
@@ -20,7 +19,7 @@ Historically: no-code AI app building.
 
 ## Current Status
 
-**unknown**
+**Unknown** — not verified; check the official source before relying on it.
 
 Status not verified for 2026-09 — check the official site before relying on the product.
 
@@ -47,7 +46,7 @@ Known limitations: Product pivoted; not recommended for serious software practic
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -69,7 +68,7 @@ Not verified — check official documentation.
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -131,11 +130,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **not-recommended** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Not recommended**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🔴 Not ideal**
 
 Product pivoted; not recommended for serious software practice. Stated requirements: Browser..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -153,4 +154,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 2 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 Bedrock-managed models surface through IDE integrations (VS Code / JetBrains + Amazon Q Developer). Verify availability per region.
 
 ## Overview
@@ -47,7 +46,8 @@ Known limitations: Not a consumer tool; developer experience is auxiliary to AWS
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- JetBrains (plugin)
 
 ## Supported Models
 
@@ -69,7 +69,7 @@ AWS usage-based pricing via Bedrock model invocation.
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -133,11 +133,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟡 Usable with limitations**
 
 Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware. Stated requirements: Any..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -155,4 +157,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

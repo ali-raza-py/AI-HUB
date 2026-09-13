@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 AI software engineer + IDE that works in your repo; no-code interface on top of real code. Verify pricing.
 
 ## Overview
@@ -47,7 +46,7 @@ Known limitations: Proprietary; pricing to verify.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -69,7 +68,7 @@ Paid plans (not verified).
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -139,11 +138,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟡 Usable with limitations**
 
 Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware. Stated requirements: None (cloud) or IDE client..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -162,4 +163,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

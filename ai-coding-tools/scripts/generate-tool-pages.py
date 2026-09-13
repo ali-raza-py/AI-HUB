@@ -69,21 +69,21 @@ def ali_verdict(t: dict) -> tuple[str, str]:
         reason += f"Stated requirements: {hw}."
 
     if stud == "not-recommended":
-        verdict = "Not recommended"
+        verdict = "🔴 Not ideal"
         reason = (t.get("weaknesses") or
                   "Requirements or pricing do not fit this machine/budget.") + " " + reason
     elif stud == "possible-but-limited":
-        verdict = "Possible but limited"
+        verdict = "🟡 Usable with limitations"
         reason = ("Usable, but expect friction (limits, RAM pressure, or setup "
                   "effort) on this hardware. ") + reason
     elif stud == "excellent" and cpu is not False:
-        verdict = "Excellent"
+        verdict = "🟢 Recommended"
         reason = "Light client; heavy inference happens in the cloud or via BYOK. " + reason
     elif stud == "good" and cpu is not False:
-        verdict = "Good"
+        verdict = "🟢 Recommended"
         reason = "Works well on this machine for normal use. " + reason
     else:
-        verdict = "Possible but limited"
+        verdict = "🟡 Usable with limitations"
         reason = "Fit could not be fully verified — check official requirements. " + reason
     return verdict, reason.strip()
 
@@ -121,6 +121,7 @@ def render(t: dict, cats: dict) -> str:
         "deprecated": "**Deprecated** — officially superseded; migration recommended.",
         "renamed": "**Renamed** — this product name is historical.",
         "acquired": "**Acquired** — absorbed into another product/organization.",
+        "unknown": "**Unknown** — not verified; check the official source before relying on it.",
     }.get(status, f"**{status}**")
 
     lvl = t.get("autonomy_level", "unknown")
@@ -188,8 +189,9 @@ def render(t: dict, cats: dict) -> str:
         "current policy before using on proprietary code. See [privacy notes]"
         "(../docs/security/privacy.md).")
     install = t.get("official_docs") or t.get("official_website")
-    hand = ("> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend "
-            "to overwrite.\n") if t.get("full_page") else ""
+    hand = ("<!-- full_page: true — page is generated once; edit data/tools.yaml, then "
+            "re-run scripts/generate-tool-pages.py --force to overwrite. -->\n"
+            ) if t.get("full_page") else ""
     selfh = (f"\n- Self-hostable: **{yn(t, 'self_hosted')}**" if "self_hosted" in t else "")
 
     parts = [
@@ -220,12 +222,12 @@ def render(t: dict, cats: dict) -> str:
         f"{t.get('pricing_summary', UNK + ' — check official pricing.')}\n",
         f"| Option | Available |\n| --- | --- |\n{price_table}\n",
         "> Advertised prices are not total cost: BYOK tools are often free while you "
-        "> pay the model provider per token. See [pricing analysis]"
+        "pay the model provider per token. See [pricing analysis]"
         "(../docs/comparisons/pricing.md).\n",
         "## Open Source\n",
         f"- Open source: **{t.get('open_source', UNK)}**",
         f"- License: **{t.get('license', UNK)}**",
-        f"- Repository: {t.get('github', 'not public / not verified')}{selfh}",
+        f"- Repository: {('<' + t['github'] + '>') if t.get('github') else 'not public / not verified'}{selfh}",
         "- Open-source, source-available, free, and free-tier are different "
         "properties — see [concepts](../docs/getting-started/concepts.md).\n",
         "## Installation\n",
@@ -250,19 +252,25 @@ def render(t: dict, cats: dict) -> str:
         "## Student Perspective\n",
         f"Assessment: **{t.get('student_friendliness', UNK)}** — see "
         "[best tools for students](../comparisons/best-for-students.md).\n",
-        "## Ali's Setup\n",
-        "Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, "
-        f"Windows, VS Code, PowerShell): **{verdict}**\n",
+        "## My Setup (hardware compatibility)\n",
+        "Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, "
+        f"no dGPU, Windows, VS Code, PowerShell, Ollama): **{verdict}**\n",
         f"{reason}\n",
+        "*Compatibility verdicts are derived from documented requirements and hardware "
+        "reasoning — not personal benchmarks. See "
+        "[my setup](../comparisons/best-stack-for-ali.md).*\n",
         f"## Alternatives\n\n{alt_lines}\n",
         f"## Sources\n\n{sources}\n",
         "All capability and pricing claims above were checked against the official "
         f"sources listed here as of {t.get('last_verified', UNK)}. Anything not "
         "confirmed is marked **Unknown** — do not assume.\n",
         "---\n",
-        "*Page generated from `data/tools.yaml` — edit the registry, not this file.*\n",
+        "*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*\n",
     ]
-    return "\n".join(parts)
+    text = "\n".join(parts)
+    while "\n\n\n" in text:  # collapse blanks introduced by empty optional parts
+        text = text.replace("\n\n\n", "\n\n")
+    return text
 
 def main() -> int:
     argv = sys.argv

@@ -1,12 +1,10 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # Continue
 
 > Last verified: 2026-09 · Status: acquired · Autonomy: Level 3 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-Continue was acquired by Cursor (Anysphere). Per the official site (verified Sep 2026): open-source codebase remains freely available as a foundation; standalone subscription is no longer sold. Check the site for transition guidance.
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
+GitHub repo is read-only as of Sep 2026; final 2.0.0 release covers the CLI, VS Code extension, and JetBrains plugin (Apache-2.0, freely available as a foundation). The registry also records the acquisition by Cursor (Anysphere) per the official site — verify there for transition guidance.
 
 ## Overview
 
@@ -17,7 +15,7 @@ Learning how BYOK/local-model IDE assistants work; forks and the OSS codebase.
 ## Official Links
 
 - [Official website](https://www.continue.dev/)
-- Documentation — not verified, check official website
+- [Documentation](https://docs.continue.dev)
 - [GitHub](https://github.com/continuedev/continue)
 - Pricing: see the official pricing page via the website link above.
 
@@ -25,8 +23,7 @@ Learning how BYOK/local-model IDE assistants work; forks and the OSS codebase.
 
 **Acquired** — absorbed into another product/organization.
 
-Continue was acquired by Cursor (Anysphere). Per the official site (verified Sep 2026): open-source codebase remains freely available as a foundation; standalone subscription is no longer sold. Check the site for transition guidance.
-
+GitHub repo is read-only as of Sep 2026; final 2.0.0 release covers the CLI, VS Code extension, and JetBrains plugin (Apache-2.0, freely available as a foundation). The registry also records the acquisition by Cursor (Anysphere) per the official site — verify there for transition guidance.
 
 ## What It Does
 
@@ -51,7 +48,8 @@ Known limitations: Future development is now primarily within Cursor, not the st
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- JetBrains (plugin)
 
 ## Supported Models
 
@@ -73,20 +71,20 @@ Open-source BYOK; hosted hub has free tier; subscription discontinued after acqu
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: https://github.com/continuedev/continue
+- Repository: <https://github.com/continuedev/continue>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://www.continue.dev/)
+- [Official install/setup docs](https://docs.continue.dev)
 
 ## Basic Usage
 
@@ -143,11 +141,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM is limited to small models (~1–4 B) and will be slow on this CPU-only machine — fine for experimentation, not for daily heavy agent work. Stated requirements: Any VS Code-capable machine..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -158,7 +158,7 @@ Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM 
 ## Sources
 
 - [Official website](https://www.continue.dev/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://docs.continue.dev)
 - [Source repository](https://github.com/continuedev/continue)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -166,5 +166,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

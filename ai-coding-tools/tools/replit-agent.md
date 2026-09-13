@@ -1,15 +1,14 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # Replit Agent
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Agent builds apps through chat on Replit (Agent v2+); built-in DB, auth, deployments, testing; agent tests its own work (verified Sep 2026).
 
 ## Overview
 
-**Replit Agent** is a full-stack-generator in the *AI app / UI / full-stack builders* category, made by Replit.
+**Replit Agent** is a hosted generator of a whole application in the *AI app / UI / full-stack builders* category, made by Replit.
 
 Non-experts and founders who want chat-to-app with hosting included.
 
@@ -49,7 +48,7 @@ Known limitations: Not a traditional coding workflow; lock-in to Replit.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -71,7 +70,7 @@ Free tier; paid plans include agent usage (Core/Pro).
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -141,11 +140,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: None (cloud/browser)..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -164,5 +165,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

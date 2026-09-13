@@ -1,9 +1,8 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # Codex (cloud agent)
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 5 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Cloud-hosted Codex agent for GitHub tasks (issue -> PR) with parallel sessions and sandboxes; separate from the open-source Codex CLI (verified Sep 2026).
 
@@ -16,7 +15,7 @@ GitHub ask-an-agent-for-a-PR workflows.
 ## Official Links
 
 - [Official website](https://openai.com/codex/)
-- Documentation — not verified, check official website
+- [Documentation](https://developers.openai.com/codex/)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -49,7 +48,7 @@ Known limitations: Requires subscription; not self-hostable.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -71,7 +70,7 @@ Included with ChatGPT Plus/Pro/Team/Enterprise classes; usage-limited.
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -84,7 +83,7 @@ Included with ChatGPT Plus/Pro/Team/Enterprise classes; usage-limited.
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://openai.com/codex/)
+- [Official install/setup docs](https://developers.openai.com/codex/)
 
 ## Basic Usage
 
@@ -143,11 +142,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: None (cloud)..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -158,7 +159,7 @@ Works well on this machine for normal use. Stated requirements: None (cloud)..
 ## Sources
 
 - [Official website](https://openai.com/codex/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://developers.openai.com/codex/)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -166,5 +167,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

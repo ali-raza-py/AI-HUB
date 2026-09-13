@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# one-off maintenance scripts (run locally, not committed)
+scripts/_audit.py
+scripts/_upgrade_data.py
+audit.txt
+
+# OS
+.DS_Store
+Thumbs.db

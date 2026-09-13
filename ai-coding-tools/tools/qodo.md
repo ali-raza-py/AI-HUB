@@ -2,6 +2,7 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 2 — see [the autonomy scale](../docs/autonomy-scale.md).
 
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Open-source PR-Agent / Qodo Merge components under qodo-ai; commercial products (Qodo Merge pro, Qodo Gen) are proprietary.
 
@@ -14,7 +15,7 @@ Automated PR code review and quality gating.
 ## Official Links
 
 - [Official website](https://qodo.ai/)
-- Documentation — not verified, check official website
+- [Documentation](https://docs.qodo.ai)
 - [GitHub](https://github.com/qodo-ai/pr-agent)
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +48,8 @@ Known limitations: Review-focused, not a general coding agent.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- JetBrains (plugin)
 
 ## Supported Models
 
@@ -69,20 +71,20 @@ Credit-based pro plans; free for open source projects.
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **AGPL-3.0**
-- Repository: https://github.com/qodo-ai/pr-agent
+- Repository: <https://github.com/qodo-ai/pr-agent>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://qodo.ai/)
+- [Official install/setup docs](https://docs.qodo.ai)
 
 ## Basic Usage
 
@@ -133,11 +135,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: Any; cloud..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -147,7 +151,7 @@ Works well on this machine for normal use. Stated requirements: Any; cloud..
 ## Sources
 
 - [Official website](https://qodo.ai/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://docs.qodo.ai)
 - [Source repository](https://github.com/qodo-ai/pr-agent)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -155,4 +159,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

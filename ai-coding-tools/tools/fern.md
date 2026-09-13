@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Unknown — not verified.
 
-
 Generate API docs + SDKs from OpenAPI; markdown-based, git-centric; AI assistant on docs.
 
 ## Overview
@@ -15,7 +14,7 @@ API companies wanting docs + typed SDKs from one OpenAPI source.
 
 - [Official website](https://buildwithfern.com/)
 - Documentation — not verified, check official website
-- [GitHub](https://github.com/fernapi/fern)
+- [GitHub](https://github.com/fern-api/fern)
 - Pricing: see the official pricing page via the website link above.
 
 ## Current Status
@@ -69,13 +68,13 @@ Open-source; hosted tier paid.
 | BYOK | Unknown |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: https://github.com/fernapi/fern
+- Repository: <https://github.com/fern-api/fern>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
@@ -129,11 +128,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟡 Usable with limitations**
 
 Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware.
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -145,11 +146,11 @@ Usable, but expect friction (limits, RAM pressure, or setup effort) on this hard
 
 - [Official website](https://buildwithfern.com/)
 - Official documentation — not verified, check official website
-- [Source repository](https://github.com/fernapi/fern)
+- [Source repository](https://github.com/fern-api/fern)
 - Pricing: verify on the official pricing page — it changes frequently.
 
 All capability and pricing claims above were checked against the official sources listed here as of 2026-09. Anything not confirmed is marked **Unknown** — do not assume.
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

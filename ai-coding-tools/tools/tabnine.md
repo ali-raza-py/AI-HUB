@@ -1,9 +1,8 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # Tabnine
 
 > Last verified: 2026-09 · Status: acquired · Autonomy: Level 2 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Acquired by Tricentis (announced on official site, verified Sep 2026). Enterprise AI coding platform angle; on-prem/air-gapped options.
 
@@ -16,7 +15,7 @@ Enterprises needing on-prem/air-gapped code assistance.
 ## Official Links
 
 - [Official website](https://www.tabnine.com/)
-- Documentation — not verified, check official website
+- [Documentation](https://docs.tabnine.com)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -49,7 +48,8 @@ Known limitations: Not open source; agentic capability varies by tier.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- JetBrains (plugin)
 
 ## Supported Models
 
@@ -71,7 +71,7 @@ Free tier; Pro; Enterprise.
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -84,7 +84,7 @@ Free tier; Pro; Enterprise.
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://www.tabnine.com/)
+- [Official install/setup docs](https://docs.tabnine.com)
 
 ## Basic Usage
 
@@ -135,11 +135,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM is limited to small models (~1–4 B) and will be slow on this CPU-only machine — fine for experimentation, not for daily heavy agent work. Stated requirements: Cloud or on-prem server; client is lightweight..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -148,7 +150,7 @@ See the [comparison matrix](../comparisons/tool-comparison-matrix.md).
 ## Sources
 
 - [Official website](https://www.tabnine.com/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://docs.tabnine.com)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -156,5 +158,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

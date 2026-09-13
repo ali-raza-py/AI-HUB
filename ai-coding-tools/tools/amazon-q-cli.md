@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 2 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 Amazon Q Developer command-line interface: autocompletions and chat for AWS CLI; part of Amazon Q Developer (verified homepage references Sep 2026).
 
 ## Overview
@@ -13,8 +12,8 @@ AWS-centric shell workflows.
 
 ## Official Links
 
-- [Official website](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)
-- Documentation — not verified, check official website
+- [Official website](https://aws.amazon.com/q/developer/)
+- [Documentation](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +46,7 @@ Known limitations: AWS-centric; limited autonomy.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Terminal / CLI
 
 ## Supported Models
 
@@ -69,7 +68,7 @@ Same free tier/plans as Amazon Q Developer.
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -135,11 +134,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: Any..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -148,8 +149,8 @@ Works well on this machine for normal use. Stated requirements: Any..
 
 ## Sources
 
-- [Official website](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)
-- Official documentation — not verified, check official website
+- [Official website](https://aws.amazon.com/q/developer/)
+- [Official documentation](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -157,4 +158,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

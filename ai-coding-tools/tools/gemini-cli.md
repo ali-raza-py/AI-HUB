@@ -1,9 +1,8 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # Gemini CLI
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Open-source (Apache-2.0) terminal agent for Gemini; free personal tier, BYOK API, MCP support, extensions (verified Sep 2026).
 
@@ -11,12 +10,12 @@ Open-source (Apache-2.0) terminal agent for Gemini; free personal tier, BYOK API
 
 **Gemini CLI** is a terminal agent (cli/repl) in the *Terminal / CLI coding agents* category, made by Google.
 
-Teams standardized on AWS Bedrock models.
+Free, open-source terminal agent for Gemini models with MCP support, extensions, and a VS Code companion.
 
 ## Official Links
 
-- [Official website](https://github.com/google-gemini/gemini-cli)
-- Documentation — not verified, check official website
+- [Official website](https://geminicli.com)
+- [Documentation](https://geminicli.com/docs)
 - [GitHub](https://github.com/google-gemini/gemini-cli)
 - Pricing: see the official pricing page via the website link above.
 
@@ -49,7 +48,8 @@ Known limitations: Autocomplete/chat only; no autonomous agent.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- Terminal / CLI
 
 ## Supported Models
 
@@ -71,20 +71,20 @@ Free to use for personal use via Google sign-in; BYOK for API; enterprise via Go
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: https://github.com/google-gemini/gemini-cli
+- Repository: <https://github.com/google-gemini/gemini-cli>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://github.com/google-gemini/gemini-cli)
+- [Official install/setup docs](https://geminicli.com/docs)
 
 ## Basic Usage
 
@@ -124,7 +124,7 @@ Autocomplete/chat only; no autonomous agent.
 
 ## Best For
 
-Teams standardized on AWS Bedrock models.
+Free, open-source terminal agent for Gemini models with MCP support, extensions, and a VS Code companion.
 
 ## Not Ideal For
 
@@ -143,11 +143,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: Any..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -157,8 +159,8 @@ Works well on this machine for normal use. Stated requirements: Any..
 
 ## Sources
 
-- [Official website](https://github.com/google-gemini/gemini-cli)
-- Official documentation — not verified, check official website
+- [Official website](https://geminicli.com)
+- [Official documentation](https://geminicli.com/docs)
 - [Source repository](https://github.com/google-gemini/gemini-cli)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -166,5 +168,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

@@ -2,6 +2,7 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 5 — see [the autonomy scale](../docs/autonomy-scale.md).
 
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Google's async GitHub coding agent: clones repo to cloud VM, plans with Gemini, proposes PR (verified site Sep 2026): free 15 tasks/day; Pro 100/day; Ultra 300/day.
 
@@ -14,7 +15,7 @@ Delegating well-scoped GitHub tasks to a PR-producing cloud agent.
 ## Official Links
 
 - [Official website](https://jules.google/)
-- Documentation — not verified, check official website
+- [Documentation](https://jules.google/docs)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +48,7 @@ Known limitations: Cloud-only (code leaves your machine); task limits.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -69,7 +70,7 @@ Free tier with daily limits; Pro/Ultra tiers with more tasks.
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -82,7 +83,7 @@ Free tier with daily limits; Pro/Ultra tiers with more tasks.
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://jules.google/)
+- [Official install/setup docs](https://jules.google/docs)
 
 ## Basic Usage
 
@@ -141,11 +142,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: None (cloud)..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -156,7 +159,7 @@ Works well on this machine for normal use. Stated requirements: None (cloud)..
 ## Sources
 
 - [Official website](https://jules.google/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://jules.google/docs)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -164,4 +167,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

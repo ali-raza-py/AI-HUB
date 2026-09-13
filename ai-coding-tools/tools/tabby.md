@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 1 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 Self-hosted AI coding assistant (Apache-2.0); code completion server you run yourself; supports CPU inference. Verify recent releases.
 
 ## Overview
@@ -14,7 +13,7 @@ Teams that need an in-house autocomplete server with data privacy.
 ## Official Links
 
 - [Official website](https://tabby.tabbyml.com/)
-- Documentation — not verified, check official website
+- [Documentation](https://tabby.tabbyml.com/docs/)
 - [GitHub](https://github.com/TabbyML/tabby)
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +46,7 @@ Known limitations: Autocomplete/chat focus; not an autonomous agent.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -69,13 +68,13 @@ Free, open source, self-hosted.
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: https://github.com/TabbyML/tabby
+- Repository: <https://github.com/TabbyML/tabby>
 - Self-hostable: **Yes**
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
@@ -83,7 +82,7 @@ Free, open source, self-hosted.
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://tabby.tabbyml.com/)
+- [Official install/setup docs](https://tabby.tabbyml.com/docs/)
 
 ## Basic Usage
 
@@ -134,11 +133,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM is limited to small models (~1–4 B) and will be slow on this CPU-only machine — fine for experimentation, not for daily heavy agent work. Stated requirements: Depends on model; smaller models work on CPU..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -148,7 +149,7 @@ Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM 
 ## Sources
 
 - [Official website](https://tabby.tabbyml.com/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://tabby.tabbyml.com/docs/)
 - [Source repository](https://github.com/TabbyML/tabby)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -156,4 +157,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

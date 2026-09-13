@@ -1,9 +1,8 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # Claude Code
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Anthropic's agentic coding tool: CLI, VS Code/JetBrains extensions, desktop app, web; MCP; Agent SDK (verified docs Sep 2026).
 
@@ -16,7 +15,7 @@ Terminal-first workflows, long-running agent sessions, and deep repo understandi
 ## Official Links
 
 - [Official website](https://claude.com/)
-- [Documentation](https://docs.claude.com/en/docs/claude-code/overview)
+- [Documentation](https://code.claude.com/docs/en/overview)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -49,7 +48,11 @@ Known limitations: Anthropic-centric billing; subscription needed for the smooth
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- JetBrains (plugin)
+- Terminal / CLI
+- Web
+- Desktop app
 
 ## Supported Models
 
@@ -71,7 +74,7 @@ Requires Claude Pro/Max subscription or API/Bedrock/Vertex; third-party OAuth pr
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -84,7 +87,7 @@ Requires Claude Pro/Max subscription or API/Bedrock/Vertex; third-party OAuth pr
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://docs.claude.com/en/docs/claude-code/overview)
+- [Official install/setup docs](https://code.claude.com/docs/en/overview)
 
 ## Basic Usage
 
@@ -143,11 +146,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: Any machine; runs in terminal (Windows w/ PowerShell/WSL)..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -159,7 +164,7 @@ Works well on this machine for normal use. Stated requirements: Any machine; run
 ## Sources
 
 - [Official website](https://claude.com/)
-- [Official documentation](https://docs.claude.com/en/docs/claude-code/overview)
+- [Official documentation](https://code.claude.com/docs/en/overview)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -167,5 +172,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

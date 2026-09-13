@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 3 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 Copilot in the terminal (GitHub CLI extension and native terminal app); agentic; part of Copilot subscription (verified docs Sep 2026).
 
 ## Overview
@@ -13,8 +12,8 @@ GitHub users who want Copilot chat in the terminal.
 
 ## Official Links
 
-- [Official website](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot)
-- Documentation — not verified, check official website
+- [Official website](https://github.com/features/copilot)
+- [Documentation](https://docs.github.com/en/copilot)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +46,7 @@ Known limitations: Requires Copilot subscription; closed source.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Terminal / CLI
 
 ## Supported Models
 
@@ -69,7 +68,7 @@ Part of Copilot Free/Pro/Pro+ plans.
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -82,7 +81,7 @@ Part of Copilot Free/Pro/Pro+ plans.
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot)
+- [Official install/setup docs](https://docs.github.com/en/copilot)
 
 ## Basic Usage
 
@@ -139,11 +138,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: Any..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -153,8 +154,8 @@ Works well on this machine for normal use. Stated requirements: Any..
 
 ## Sources
 
-- [Official website](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot)
-- Official documentation — not verified, check official website
+- [Official website](https://github.com/features/copilot)
+- [Official documentation](https://docs.github.com/en/copilot)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -162,4 +163,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

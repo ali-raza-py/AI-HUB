@@ -2,6 +2,7 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 BYOK coding agent for JetBrains IDEs, CLI, GitHub/GitLab actions; AI credits or BYOK pricing (verified Sep 2026).
 
@@ -14,7 +15,7 @@ JetBrains users who want an in-IDE agent with BYOK.
 ## Official Links
 
 - [Official website](https://www.jetbrains.com/junie/)
-- Documentation — not verified, check official website
+- [Documentation](https://www.jetbrains.com/help/junie/)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +48,7 @@ Known limitations: JetBrains-ecosystem oriented; CLI experience younger.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- JetBrains (plugin)
 
 ## Supported Models
 
@@ -69,7 +70,7 @@ Free to start with 5 AI credits; BYOK zero-markup; AI Pro/AI Ultimate subscripti
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -82,7 +83,7 @@ Free to start with 5 AI credits; BYOK zero-markup; AI Pro/AI Ultimate subscripti
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://www.jetbrains.com/junie/)
+- [Official install/setup docs](https://www.jetbrains.com/help/junie/)
 
 ## Basic Usage
 
@@ -141,11 +142,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM is limited to small models (~1–4 B) and will be slow on this CPU-only machine — fine for experimentation, not for daily heavy agent work. Stated requirements: Any JetBrains-compatible machine..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -156,7 +159,7 @@ Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM 
 ## Sources
 
 - [Official website](https://www.jetbrains.com/junie/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://www.jetbrains.com/help/junie/)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -164,4 +167,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

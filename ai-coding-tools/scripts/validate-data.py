@@ -21,6 +21,7 @@ ALLOWED_STATUS = {"active", "archived", "discontinued", "deprecated", "renamed",
                   "acquired", "unknown"}  # unknown => warning, not error
 ALLOWED_OPEN_SOURCE = {True, False, "source-available", "unknown"}
 ALLOWED_STUDENT = {"excellent", "good", "possible-but-limited", "not-recommended", "unknown"}
+PLATFORM_FIELDS = ("vscode", "jetbrains", "zed", "cli", "terminal", "web", "desktop", "mobile")
 
 CORE_FIELDS = [
     "name", "id", "category", "subcategory", "company", "official_website",
@@ -137,8 +138,12 @@ def main() -> int:
         if "github" not in t and t.get("open_source") is True:
             warn(f"{loc}: open_source=true but no `github` repo URL recorded")
 
-        if t.get("full_page") is not True and t.get("status") == "active":
-            warn(f"{loc}: active tool without a full page (full_page: false)")
+        for field in PLATFORM_FIELDS:
+            v = t.get(field)
+            if v is None:
+                continue
+            if v is not True and v is not False and str(v).lower() != "unknown":
+                err(f"{loc}: {field} `{v}` must be true, false, or 'unknown'")
 
     # ---------------------------------------------------------------- models
     mdoc = load(DATA / "models.yaml")

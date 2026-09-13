@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Unknown — not verified.
 
-
 Hosted API documentation platform with interactive requests, MCP support, and AI features.
 
 ## Overview
@@ -14,7 +13,7 @@ API-first products needing interactive reference docs.
 ## Official Links
 
 - [Official website](https://readme.com/)
-- Documentation — not verified, check official website
+- [Documentation](https://docs.readme.com)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +46,7 @@ Known limitations: Hosted; code-reference depth varies.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -69,7 +68,7 @@ Paid plans; free tier for some use cases.
 | BYOK | Unknown |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -82,7 +81,7 @@ Paid plans; free tier for some use cases.
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://readme.com/)
+- [Official install/setup docs](https://docs.readme.com)
 
 ## Basic Usage
 
@@ -129,11 +128,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟡 Usable with limitations**
 
 Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware.
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -144,7 +145,7 @@ Usable, but expect friction (limits, RAM pressure, or setup effort) on this hard
 ## Sources
 
 - [Official website](https://readme.com/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://docs.readme.com)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -152,4 +153,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

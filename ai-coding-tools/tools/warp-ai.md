@@ -2,6 +2,7 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Warp is an open-source terminal plus an agent platform ('factories' coordinate fleets of coding agents); Warp AI capabilities in the terminal are being retired in favor of agent platform (verified Sep 2026).
 
@@ -14,7 +15,7 @@ Teams automating PR review/incident workflows ('factories').
 ## Official Links
 
 - [Official website](https://www.warp.dev/)
-- Documentation — not verified, check official website
+- [Documentation](https://docs.warp.dev)
 - [GitHub](https://github.com/warpdotdev/warp)
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +48,8 @@ Known limitations: Platform pricing per-run; terminal AI features being retired.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Terminal / CLI
+- Desktop app
 
 ## Supported Models
 
@@ -69,20 +71,20 @@ Terminal free; agent platform usage-based.
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0 (terminal, open-sourced 2025); AI platform features are commercial cloud**
-- Repository: https://github.com/warpdotdev/warp
+- Repository: <https://github.com/warpdotdev/warp>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://www.warp.dev/)
+- [Official install/setup docs](https://docs.warp.dev)
 
 ## Basic Usage
 
@@ -139,11 +141,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟡 Usable with limitations**
 
 Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware. Stated requirements: Any..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -153,7 +157,7 @@ Usable, but expect friction (limits, RAM pressure, or setup effort) on this hard
 ## Sources
 
 - [Official website](https://www.warp.dev/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://docs.warp.dev)
 - [Source repository](https://github.com/warpdotdev/warp)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -161,4 +165,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

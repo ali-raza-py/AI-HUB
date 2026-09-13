@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Unknown — not verified.
 
-
 Collaborative documentation platform with AI search/answers; vs. static generators it is a hosted knowledge management platform.
 
 ## Overview
@@ -14,7 +13,7 @@ Teams that want collaborative, hosted docs with AI search.
 ## Official Links
 
 - [Official website](https://www.gitbook.com/)
-- Documentation — not verified, check official website
+- [Documentation](https://gitbook.com/docs)
 - GitHub — not verified, check official website
 - Pricing: see the official pricing page via the website link above.
 
@@ -47,7 +46,7 @@ Known limitations: Less code-native than git-based generators.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Web
 
 ## Supported Models
 
@@ -69,7 +68,7 @@ Free tier; Pro/Org plans.
 | BYOK | Unknown |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -82,7 +81,7 @@ Free tier; Pro/Org plans.
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://www.gitbook.com/)
+- [Official install/setup docs](https://gitbook.com/docs)
 
 ## Basic Usage
 
@@ -129,11 +128,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use.
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -143,7 +144,7 @@ Works well on this machine for normal use.
 ## Sources
 
 - [Official website](https://www.gitbook.com/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://gitbook.com/docs)
 - Source repository — not verified, check official website
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -151,4 +152,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

@@ -2,6 +2,7 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Unknown — not verified.
 
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Open-source (MIT) static documentation site generator powered by React/MDX; versioning + i18n built in (verified Sep 2026).
 
@@ -14,7 +15,7 @@ Projects that want git-native, markdown-driven docs with versioning.
 ## Official Links
 
 - [Official website](https://docusaurus.io/)
-- Documentation — not verified, check official website
+- [Documentation](https://docusaurus.io/docs)
 - [GitHub](https://github.com/facebook/docusaurus)
 - Pricing: see the official pricing page via the website link above.
 
@@ -69,20 +70,20 @@ Free, open source.
 | BYOK | Unknown |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **MIT**
-- Repository: https://github.com/facebook/docusaurus
+- Repository: <https://github.com/facebook/docusaurus>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://docusaurus.io/)
+- [Official install/setup docs](https://docusaurus.io/docs)
 
 ## Basic Usage
 
@@ -129,11 +130,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **excellent** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Excellent**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Light client; heavy inference happens in the cloud or via BYOK.
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -144,7 +147,7 @@ Light client; heavy inference happens in the cloud or via BYOK.
 ## Sources
 
 - [Official website](https://docusaurus.io/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://docusaurus.io/docs)
 - [Source repository](https://github.com/facebook/docusaurus)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -152,4 +155,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

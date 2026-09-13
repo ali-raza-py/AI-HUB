@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: deprecated · Autonomy: Level 2 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 Sourcegraph deprecated Cody for individual users (mid-2025); it remains available in Sourcegraph Enterprise. Check Sourcegraph for current guidance.
 
 ## Overview
@@ -47,7 +46,8 @@ Known limitations: No longer a consumer tool; enterprise-only now.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- JetBrains (plugin)
 
 ## Supported Models
 
@@ -69,7 +69,7 @@ Enterprise offering; individual free tier removed.
 | BYOK | No |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
@@ -133,11 +133,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **not-recommended** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Not recommended**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🔴 Not ideal**
 
 No longer a consumer tool; enterprise-only now. Stated requirements: Any..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -156,4 +158,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

@@ -61,7 +61,7 @@ def tool_rows(tools: list[dict], cats: dict) -> list[list[str]]:
             fmt(t.get("open_source")) if t.get("open_source") is True else
             (t.get("open_source") if isinstance(t.get("open_source"), str) else NO),
             fmt(t.get("byok")), fmt(t.get("local_models")),
-            fmt(t.get("vscode")), fmt(t.get("terminal")), fmt(t.get("mcp")),
+            fmt(t.get("vscode")), fmt(t.get("cli")), fmt(t.get("mcp")),
             fmt(t.get("git_support")),
             auto, fmt(t.get("free")),
             str(t.get("best_for", UNK))[:80],
@@ -70,6 +70,9 @@ def tool_rows(tools: list[dict], cats: dict) -> list[list[str]]:
 
 
 def write(path: Path, title: str, body: str) -> None:
+    body = body.rstrip("\n")
+    while "\n\n\n" in body:  # collapse blanks introduced by empty parts
+        body = body.replace("\n\n\n", "\n\n")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(f"# {title}\n\n{body}\n\n{GENERATED_NOTE}\n",
                     encoding="utf-8", newline="\n")
@@ -81,16 +84,17 @@ MATRIX_HEADERS = ["Tool", "Category", "Open Source", "BYOK", "Local", "VS Code",
 
 
 def matrix_rows(tools, cats):
+    cat_name = {c["id"]: c["name"] for c in cats["categories"]}
     rows = []
     for t in sorted(tools, key=lambda x: x["name"].lower()):
         lvl = t.get("autonomy_level")
         rows.append([
             f"[{t['name']}](../tools/{t['id']}.md)",
-            t["category"],
+            cat_name.get(t["category"], t["category"]),
             fmt(t.get("open_source")) if t.get("open_source") is True else
             (t.get("open_source") if isinstance(t.get("open_source"), str) else NO),
             fmt(t.get("byok")), fmt(t.get("local_models")),
-            fmt(t.get("vscode")), fmt(t.get("terminal")), fmt(t.get("mcp")),
+            fmt(t.get("vscode")), fmt(t.get("cli")), fmt(t.get("mcp")),
             fmt(t.get("terminal_execution")),
             fmt(t.get("git_support")),
             (f"L{lvl}" if isinstance(lvl, int) else UNK),
@@ -151,7 +155,7 @@ def main() -> int:
                            (f"L{t['autonomy_level']}"
                             if isinstance(t.get("autonomy_level"), int) else UNK),
                            fmt(t.get("free")), fmt(t.get("byok")),
-                           fmt(t.get("local_models")), fmt(t.get("terminal")),
+                           fmt(t.get("local_models")), fmt(t.get("cli")),
                            str(t.get("best_for", ""))[:70]]
                           for t in sorted(group, key=lambda x: x["name"].lower())]))
         write(DOCS / c["id"] / "index.md", c["name"], body)
@@ -186,8 +190,9 @@ def main() -> int:
     filtered_page(COMP / "best-cli-agents.md", "Best Terminal / CLI Agents",
                   "Agents you drive from a terminal or CLI.",
                   tools, cats,
-                  lambda t: t.get("terminal") is True or
-                  t["category"] == "terminal-agents")
+                  lambda t: t["category"] == "terminal-agents" or
+                  (t.get("cli") is True and
+                   t["category"] in ("vscode-ide-agents", "autonomous-agents")))
     filtered_page(COMP / "best-autonomous-agents.md", "Best Autonomous Agents",
                   "Tools at autonomy Level 4–5 (plan + implement with minimal "
                   "supervision) or designed as autonomous agents. See the "

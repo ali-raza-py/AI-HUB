@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping keep this reference accurate. AI tooling changes weekly, so
+Thanks for helping keep AI Hub accurate. AI tooling changes weekly, so
 corrections are the most valuable contributions.
 
 ## Ground rules
@@ -21,6 +21,9 @@ corrections are the most valuable contributions.
 6. **Archive, don't delete.** Discontinued tools stay in the registry with
    `status: archived|discontinued|renamed|acquired` and a note.
 7. **Update `last_verified`** on any entry you actually verified.
+8. **Platform fields** (`vscode`, `cli`, `terminal`, `web`, `desktop`, `zed`,
+   `jetbrains`) must be `true`, `false`, or `"unknown"` — set them only when
+   the official source supports the value.
 
 ## Workflow
 
@@ -33,11 +36,24 @@ python scripts/generate-tool-pages.py
 python scripts/generate-index.py
 # 4. verify links
 python scripts/check-links.py          # must report 0 broken links
+python scripts/check-external-links.py # optional: live check, report-only
 # 5. add a CHANGELOG.md entry (only for changes you actually made)
 ```
+
+CI runs steps 2–4 plus Markdown lint on every push/PR, and fails if generated
+files are out of sync with the registry.
+
+## Transparency
+
+Content in this repository is produced with AI-assisted research, but every
+important fact is reviewed and verified against official sources before it is
+committed to the registry. Keep it that way: never import a claim you have not
+checked against a primary source, and never present derived compatibility
+verdicts (🟢🟡🔴) as personal test results.
 
 ## Style
 
 Professional developer documentation: clear headings, tables, short
 paragraphs, code blocks, warnings where needed. No marketing language, no
-unnecessary emojis, no exaggerated claims. Be honest about weaknesses.
+excessive emojis (the 🟢🟡🔴 compatibility verdicts are the deliberate
+exception), no exaggerated claims. Be honest about weaknesses.

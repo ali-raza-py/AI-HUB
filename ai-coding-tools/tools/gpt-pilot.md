@@ -2,7 +2,6 @@
 
 > Last verified: 2026-09 · Status: unknown · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
 Part of the Pythagora project family. Verify current maintenance status.
 
 ## Overview
@@ -20,7 +19,7 @@ Learning about early autonomous app-piloting agents.
 
 ## Current Status
 
-**unknown**
+**Unknown** — not verified; check the official source before relying on it.
 
 Part of the Pythagora project family. Verify current maintenance status.
 
@@ -47,7 +46,7 @@ Known limitations: Older approach; maintenance uncertain — verify.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
 
 ## Supported Models
 
@@ -69,13 +68,13 @@ Free, open source, BYOK.
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **MIT**
-- Repository: https://github.com/Pythagora-io/gpt-pilot
+- Repository: <https://github.com/Pythagora-io/gpt-pilot>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
@@ -139,11 +138,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟡 Usable with limitations**
 
 Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware. Stated requirements: Any (Python/Node)..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -162,4 +163,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

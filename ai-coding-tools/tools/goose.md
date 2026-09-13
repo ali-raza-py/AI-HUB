@@ -2,8 +2,9 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 3 — see [the autonomy scale](../docs/autonomy-scale.md).
 
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
-Open-source (Apache-2.0) AI agent from Block; runs in terminal and connects to IDEs; BYOK, local models, MCP-native; docs moved to goose-docs.ai (redirect verified Sep 2026).
+Open-source (Apache-2.0) AI agent that moved to the Agentic AI Foundation (Linux Foundation) — vendor-neutral, community-governed; desktop app + CLI + API, 70+ MCP extensions, ACP support, BYOK across 15+ providers (verified Sep 2026).
 
 ## Overview
 
@@ -13,16 +14,16 @@ Extensible, MCP-first agentic automation and local-model use.
 
 ## Official Links
 
-- [Official website](https://block.github.io/goose/)
-- Documentation — not verified, check official website
-- [GitHub](https://github.com/block/goose)
+- [Official website](https://goose-docs.ai)
+- [Documentation](https://goose-docs.ai)
+- [GitHub](https://github.com/aaif-goose/goose)
 - Pricing: see the official pricing page via the website link above.
 
 ## Current Status
 
 **Active** — under active development as of the last verification date.
 
-Open-source (Apache-2.0) AI agent from Block; runs in terminal and connects to IDEs; BYOK, local models, MCP-native; docs moved to goose-docs.ai (redirect verified Sep 2026).
+Open-source (Apache-2.0) AI agent that moved to the Agentic AI Foundation (Linux Foundation) — vendor-neutral, community-governed; desktop app + CLI + API, 70+ MCP extensions, ACP support, BYOK across 15+ providers (verified Sep 2026).
 
 ## What It Does
 
@@ -47,7 +48,8 @@ Known limitations: Config and extension sprawl can be finicky; younger than Clau
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Terminal / CLI
+- Desktop app
 
 ## Supported Models
 
@@ -69,20 +71,20 @@ Free, open source, BYOK.
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: https://github.com/block/goose
+- Repository: <https://github.com/aaif-goose/goose>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://block.github.io/goose/)
+- [Official install/setup docs](https://goose-docs.ai)
 
 ## Basic Usage
 
@@ -141,11 +143,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM is limited to small models (~1–4 B) and will be slow on this CPU-only machine — fine for experimentation, not for daily heavy agent work. Stated requirements: Any; Rust-based CLI is light..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -155,13 +159,13 @@ Works well on this machine for normal use. Local inference (Ollama) on 8 GB RAM 
 
 ## Sources
 
-- [Official website](https://block.github.io/goose/)
-- Official documentation — not verified, check official website
-- [Source repository](https://github.com/block/goose)
+- [Official website](https://goose-docs.ai)
+- [Official documentation](https://goose-docs.ai)
+- [Source repository](https://github.com/aaif-goose/goose)
 - Pricing: verify on the official pricing page — it changes frequently.
 
 All capability and pricing claims above were checked against the official sources listed here as of 2026-09. Anything not confirmed is marked **Unknown** — do not assume.
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

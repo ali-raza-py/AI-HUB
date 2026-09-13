@@ -2,6 +2,7 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Unknown — not verified.
 
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Python documentation generator (reStructuredText) widely used for project docs incl. Read the Docs.
 
@@ -14,7 +15,7 @@ Python projects and complex documentation suites.
 ## Official Links
 
 - [Official website](https://www.sphinx-doc.org/)
-- Documentation — not verified, check official website
+- [Documentation](https://www.sphinx-doc.org/en/master/)
 - [GitHub](https://github.com/sphinx-doc/sphinx)
 - Pricing: see the official pricing page via the website link above.
 
@@ -69,20 +70,20 @@ Free, open source.
 | BYOK | Unknown |
 | API costs | Unknown |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **BSD**
-- Repository: https://github.com/sphinx-doc/sphinx
+- Repository: <https://github.com/sphinx-doc/sphinx>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://www.sphinx-doc.org/)
+- [Official install/setup docs](https://www.sphinx-doc.org/en/master/)
 
 ## Basic Usage
 
@@ -129,11 +130,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use.
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -144,7 +147,7 @@ Works well on this machine for normal use.
 ## Sources
 
 - [Official website](https://www.sphinx-doc.org/)
-- Official documentation — not verified, check official website
+- [Official documentation](https://www.sphinx-doc.org/en/master/)
 - [Source repository](https://github.com/sphinx-doc/sphinx)
 - Pricing: verify on the official pricing page — it changes frequently.
 
@@ -152,4 +155,4 @@ All capability and pricing claims above were checked against the official source
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

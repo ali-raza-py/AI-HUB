@@ -1,0 +1,61 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1" # weekly external-link report (Mon 06:00 UTC)
+
+permissions:
+  contents: read
+
+jobs:
+  registry-and-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pyyaml requests
+      - name: Validate registry (data validity, duplicates, required fields)
+        working-directory: ai-coding-tools
+        run: python scripts/validate-data.py
+      - name: Regenerate outputs and verify they are in sync
+        working-directory: ai-coding-tools
+        run: |
+          python scripts/generate-tool-pages.py
+          python scripts/generate-index.py
+          if ! git diff --exit-code -- .; then
+            echo "::error::Generated files are out of sync with data/*.yaml — run scripts/generate-tool-pages.py and scripts/generate-index.py, then commit the results."
+            exit 1
+          fi
+      - name: Check internal links
+        working-directory: ai-coding-tools
+        run: python scripts/check-links.py
+
+  external-links:
+    # Weekly best-effort live check — reported, not enforced (network flakiness).
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - name: External link check (report only)
+        working-directory: ai-coding-tools
+        run: python scripts/check-external-links.py
+
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v17
+        with:
+          globs: "**/*.md"

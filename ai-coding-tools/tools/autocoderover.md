@@ -2,8 +2,7 @@
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 
-
-Academic autonomous program improvement system (Apache-2.0); resolves GitHub issues via search+patch pipeline. Research status to verify for 2026.
+Academic autonomous program improvement system (Apache-2.0); maintained under the AutoCodeRoverSG org (README contact routes via SonarSource). Resolves GitHub issues via a search+patch pipeline (verified Sep 2026).
 
 ## Overview
 
@@ -13,16 +12,16 @@ Research and SWE-bench-style experiments.
 
 ## Official Links
 
-- [Official website](https://github.com/AutoCodeRover/AutoCodeRover)
+- [Official website](https://github.com/AutoCodeRoverSG/auto-code-rover)
 - Documentation — not verified, check official website
-- [GitHub](https://github.com/AutoCodeRover/AutoCodeRover)
+- [GitHub](https://github.com/AutoCodeRoverSG/auto-code-rover)
 - Pricing: see the official pricing page via the website link above.
 
 ## Current Status
 
 **Active** — under active development as of the last verification date.
 
-Academic autonomous program improvement system (Apache-2.0); resolves GitHub issues via search+patch pipeline. Research status to verify for 2026.
+Academic autonomous program improvement system (Apache-2.0); maintained under the AutoCodeRoverSG org (README contact routes via SonarSource). Resolves GitHub issues via a search+patch pipeline (verified Sep 2026).
 
 ## What It Does
 
@@ -47,7 +46,7 @@ Known limitations: Academic tooling; not a polished product.
 
 ## Platforms
 
-- Unknown — check official documentation.
+- Terminal / CLI
 
 ## Supported Models
 
@@ -69,20 +68,20 @@ Free, open source, BYOK.
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: https://github.com/AutoCodeRover/AutoCodeRover
+- Repository: <https://github.com/AutoCodeRoverSG/auto-code-rover>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
 
 Use the official installation instructions — do not rely on third-party copies:
 
-- [Official install/setup docs](https://github.com/AutoCodeRover/AutoCodeRover)
+- [Official install/setup docs](https://github.com/AutoCodeRoverSG/auto-code-rover)
 
 ## Basic Usage
 
@@ -139,11 +138,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟡 Usable with limitations**
 
 Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware. Local inference (Ollama) on 8 GB RAM is limited to small models (~1–4 B) and will be slow on this CPU-only machine — fine for experimentation, not for daily heavy agent work. Stated requirements: Any (Python)..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -153,13 +154,13 @@ Usable, but expect friction (limits, RAM pressure, or setup effort) on this hard
 
 ## Sources
 
-- [Official website](https://github.com/AutoCodeRover/AutoCodeRover)
+- [Official website](https://github.com/AutoCodeRoverSG/auto-code-rover)
 - Official documentation — not verified, check official website
-- [Source repository](https://github.com/AutoCodeRover/AutoCodeRover)
+- [Source repository](https://github.com/AutoCodeRoverSG/auto-code-rover)
 - Pricing: verify on the official pricing page — it changes frequently.
 
 All capability and pricing claims above were checked against the official sources listed here as of 2026-09. Anything not confirmed is marked **Unknown** — do not assume.
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*

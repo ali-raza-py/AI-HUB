@@ -1,9 +1,8 @@
-﻿
-
-> HAND-WRITTEN FLAG SET — regenerate with `--force` only if you intend to overwrite.
 # OpenAI Codex CLI
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+<!-- full_page: true — page is generated once; edit data/tools.yaml, then re-run scripts/generate-tool-pages.py --force to overwrite. -->
 
 Open-source CLI (Apache-2.0) for the Codex coding agent; runs in terminal and IDE extension; cloud Codex runs in sandboxes (verified Sep 2026). Includes SQLite history, MCP client support.
 
@@ -17,7 +16,7 @@ Developers who want a capable, scriptable terminal agent with OpenAI models.
 
 - [Official website](https://openai.com/codex/)
 - [Documentation](https://developers.openai.com/codex/)
-- GitHub — not verified, check official website
+- [GitHub](https://github.com/openai/codex)
 - Pricing: see the official pricing page via the website link above.
 
 ## Current Status
@@ -49,7 +48,8 @@ Known limitations: Model choice mainly OpenAI; long autonomous runs cost API tok
 
 ## Platforms
 
-- Unknown — check official documentation.
+- VS Code (extension)
+- Terminal / CLI
 
 ## Supported Models
 
@@ -71,13 +71,13 @@ CLI is free/open source; requires OpenAI API/Advanced subscription; usage-based 
 | BYOK | Yes |
 | API costs | You pay the model provider when using BYOK |
 
-> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+> Advertised prices are not total cost: BYOK tools are often free while you pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
 
 ## Open Source
 
 - Open source: **True**
 - License: **Apache-2.0**
-- Repository: not public / not verified
+- Repository: <https://github.com/openai/codex>
 - Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
 
 ## Installation
@@ -143,11 +143,13 @@ With BYOK/local models, prompts go to the provider you choose (or nowhere for lo
 
 Assessment: **good** — see [best tools for students](../comparisons/best-for-students.md).
 
-## Ali's Setup
+## My Setup (hardware compatibility)
 
-Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Good**
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, 256 GB SSD, no dGPU, Windows, VS Code, PowerShell, Ollama): **🟢 Recommended**
 
 Works well on this machine for normal use. Stated requirements: Any machine with Node.js..
+
+*Compatibility verdicts are derived from documented requirements and hardware reasoning — not personal benchmarks. See [my setup](../comparisons/best-stack-for-ali.md).*
 
 ## Alternatives
 
@@ -159,12 +161,11 @@ Works well on this machine for normal use. Stated requirements: Any machine with
 
 - [Official website](https://openai.com/codex/)
 - [Official documentation](https://developers.openai.com/codex/)
-- Source repository — not verified, check official website
+- [Source repository](https://github.com/openai/codex)
 - Pricing: verify on the official pricing page — it changes frequently.
 
 All capability and pricing claims above were checked against the official sources listed here as of 2026-09. Anything not confirmed is marked **Unknown** — do not assume.
 
 ---
 
-*Page generated from `data/tools.yaml` — edit the registry, not this file.*
-
+*(Page generated from `data/tools.yaml` — edit the registry, not this file.)*
