@@ -104,7 +104,17 @@ button, a, select, input { -webkit-tap-highlight-color: transparent; }
 .nav-frame::before { left: 0; }
 .nav-frame::after { right: 0; }
 .nav-mobile-panel { border-radius: 0 0 18px 18px; }
-html.light .nav-frame { background: rgba(17, 19, 21, .96); }
+html.light .nav-frame { border-color: #d8d5c5; background: #fffef8; box-shadow: 0 12px 34px rgba(53, 49, 27, .12); }
+html.light .nav-frame [class*="text-white"] { color: #171918 !important; }
+html.light .nav-frame [class*="text-[#91aab5]"], html.light .nav-frame [class*="text-[#b9d0d7]"] { color: #5f6258 !important; }
+html.light .nav-frame button:hover { color: #171918 !important; }
+html.light .nav-mobile-panel { border-color: #d8d5c5; background: #fffef8; }
+html.light .nav-mobile-panel [class*="text-[#9bb1ba]"] { color: #5f6258 !important; }
+html.light .nav-mobile-panel [class*="text-white"] { color: #171918 !important; }
+html.light .app-main > :not(.homepage) [class*="text-white"] { color: #171918 !important; }
+html.light .app-main > :not(.homepage) [class*="text-[#c2d4da]"], html.light .app-main > :not(.homepage) [class*="text-[#d0e0e5]"], html.light .app-main > :not(.homepage) [class*="text-[#d1d1c7]"] { color: #3c4038 !important; }
+html.light .app-main > :not(.homepage) [class*="bg-[#0d1d27]"], html.light .app-main > :not(.homepage) [class*="bg-[#0e1d27]"] { background: #fffef8 !important; color: #171918 !important; }
+html.light .app-main > :not(.homepage) [class*="border-white"] { border-color: rgba(24, 26, 24, .14) !important; }
 @media (max-width: 850px) { .hero-content-wrap { grid-template-columns: 1fr; gap: 46px; padding-top: 125px; } .hero-side { max-width: 440px; } .hero-reference { min-height: 850px; } .hero-brand-strip span:nth-child(2), .hero-brand-strip span:nth-child(3) { display: none; } }
 @media (max-width: 560px) { .hero-grid-meta { right: 17px; top: 18px; } .hero-grid-meta span:first-child { display: none; } .hero-scroll-cue { bottom: 78px; left: 18px; } .hero-content-wrap { padding: 110px 18px 125px; } .hero-headline { font-size: clamp(2.8rem, 14vw, 5rem); } .hero-pixel-word { font-size: .72em; } .hero-brand-strip { padding: 10px 18px; } .hero-brand-strip span { font-size: 8px; } }
 @media (prefers-reduced-motion: reduce) { .cursor-pixel, .cursor-pixel-echo { display: none; } .reference-marquee-track { animation: none; } }
