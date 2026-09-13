@@ -8,9 +8,9 @@
     "build": "npm run build:data && tsc --noEmit && vite build",
     "preview": "vite preview",
     "build:data": "node scripts/build-data.mjs",
-    "lint:md": "node scripts/link-check.mjs",
+    "lint:md": "npm run validate:registry",
     "validate:registry": "cd ../ai-coding-tools && python scripts/validate-data.py",
-    "validate": "node scripts/link-check.mjs"
+    "validate": "npm run validate:registry"
   },
   "devDependencies": {
     "@types/node": "^22.20.2",
