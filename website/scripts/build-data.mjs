@@ -2,9 +2,11 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, cpSync } from "node:fs"
 import { execSync } from "node:child_process"
 import path from "node:path"
+import { fileURLToPath } from "node:url"
 
-const ROOT = process.env.REPO_ROOT || "C:/Users/HP/AI-HUB"
-const OUT = process.env.OUT || "C:/Users/HP/AI-HUB/website/src/lib/data"
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url))
+const ROOT = process.env.REPO_ROOT || path.resolve(SCRIPT_DIR, "../..")
+const OUT = process.env.OUT || path.resolve(ROOT, "website/src/lib/data")
 
 // Use Python to parse YAML (reliable)
 function loadYaml(p) {
