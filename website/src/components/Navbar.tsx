@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { ArrowUpRight, Menu, Moon, Sun, X } from 'lucide-react'
 import { useTheme } from '../hooks/useTheme'
@@ -14,9 +14,17 @@ export default function Navbar() {
     { to: '/guides', label: 'Guides' },
   ]
 
+  useEffect(() => {
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpen(false)
+    }
+    window.addEventListener('keydown', closeOnEscape)
+    return () => window.removeEventListener('keydown', closeOnEscape)
+  }, [])
+
   return (
-    <nav className="sticky top-0 z-50 border-b border-[#20282a] bg-[#111315]">
-      <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <nav className="site-nav sticky top-0 z-50 px-3 pt-3 sm:px-4">
+      <div className="nav-frame mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" onClick={() => setOpen(false)} className="group flex items-center gap-3">
           <span className="grid h-9 w-9 place-items-center rounded-none bg-[#f5c542] text-[#111315] transition-transform group-hover:rotate-3">
             <span className="font-display text-lg font-bold">A</span>
@@ -40,11 +48,11 @@ export default function Navbar() {
             Start exploring <ArrowUpRight size={15} />
           </Link>
         </div>
-        <button aria-label={open ? 'Close navigation' : 'Open navigation'} onClick={() => setOpen(value => !value)} className="grid h-10 w-10 place-items-center rounded-lg text-[#b9d0d7] hover:bg-white/5 md:hidden">
+        <button aria-label={open ? 'Close navigation' : 'Open navigation'} aria-expanded={open} onClick={() => setOpen(value => !value)} className="grid h-10 w-10 place-items-center rounded-none border border-transparent text-[#b9d0d7] transition hover:border-[#f5c542] hover:bg-[#f5c542]/10 md:hidden">
           {open ? <X size={20} /> : <Menu size={20} />}
         </button>
       </div>
-      {open && <div className="border-t border-white/10 bg-[#0b1821] px-4 py-4 md:hidden">
+      {open && <div className="nav-mobile-panel border-t border-white/10 bg-[#0b1821] px-4 py-4 md:hidden">
         <div className="mx-auto flex max-w-7xl flex-col gap-1">
           {links.map(link => <Link key={link.to} to={link.to} onClick={() => setOpen(false)} className={`rounded-lg px-3 py-3 text-sm ${location.pathname.startsWith(link.to) ? 'bg-white/8 text-white' : 'text-[#9bb1ba]'}`}>{link.label}</Link>)}
           <button onClick={toggle} className="mt-2 flex items-center gap-2 border-t border-white/10 px-3 pt-4 text-left text-sm text-[#9bb1ba]">
