@@ -73,6 +73,8 @@ button, a, select, input { -webkit-tap-highlight-color: transparent; }
 .hero-reference::before { position: absolute; inset: 0; z-index: -1; background-image: linear-gradient(rgba(255,255,255,.105) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.105) 1px, transparent 1px); background-size: 64px 64px; content: ''; opacity: .72; }
 .hero-reference::after { position: absolute; inset: 0; z-index: -1; background: radial-gradient(circle at 58% 34%, rgba(245,197,66,.12), transparent 20rem); content: ''; pointer-events: none; }
 .cursor-pixel-field { position: relative; }
+.pixel-matrix { position: fixed; z-index: 1; inset: 0; width: 100vw; height: 100vh; pointer-events: none; opacity: .7; mix-blend-mode: screen; }
+.cursor-pixel-field > :not(.pixel-matrix) { position: relative; z-index: 2; }
 .cursor-pixel { position: absolute; z-index: 4; left: 0; top: 0; width: 28px; height: 28px; background: #f5c542; box-shadow: 10px 10px 0 rgba(245,197,66,.16), 0 0 28px rgba(245,197,66,.22); pointer-events: none; opacity: 0; transition: opacity .25s ease; will-change: transform; }
 .cursor-pixel::after { position: absolute; inset: 7px; border: 1px solid #111315; content: ''; }
 .cursor-pixel-echo { position: absolute; z-index: 3; left: 0; top: 0; width: 10px; height: 10px; border: 1px solid rgba(245,197,66,.72); pointer-events: none; opacity: 0; transition: opacity .35s ease; will-change: transform; }
