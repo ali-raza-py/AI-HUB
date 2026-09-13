@@ -1,136 +1,45 @@
-import { useState, useMemo } from 'react'
-import { Link } from 'react-router-dom'
-import type { Tool, Category } from '../lib/types'
+import { useMemo, useState } from 'react'
+import { ArrowUpRight, Check, Filter, Search, SlidersHorizontal, X } from 'lucide-react'
+import { Link, useSearchParams } from 'react-router-dom'
+import type { Category, Tool } from '../lib/types'
 
-interface Props {
-  tools: Tool[]
-  categories: Category[]
-}
+interface Props { tools: Tool[]; categories: Category[] }
 
 export default function ToolsPage({ tools, categories }: Props) {
+  const [params, setParams] = useSearchParams()
   const [search, setSearch] = useState('')
-  const [cat, setCat] = useState('all')
+  const [cat, setCat] = useState(params.get('category') || 'all')
   const [status, setStatus] = useState('all')
-  const [oss, setOss] = useState(false)
-  const [byok, setByok] = useState(false)
-  const [mcp, setMcp] = useState(false)
-  const [free, setFree] = useState(false)
-  const [vscode, setVscode] = useState(false)
-  const [cli, setCli] = useState(false)
-
-  const statuses = useMemo(() => {
-    const s = new Set<string>()
-    tools.forEach(t => s.add(t.status || 'unknown'))
-    return Array.from(s).sort()
-  }, [tools])
-
+  const [filterOpen, setFilterOpen] = useState(false)
+  const [filters, setFilters] = useState({ oss: false, byok: false, mcp: false, free: false, vscode: false, cli: false })
+  const statuses = useMemo(() => Array.from(new Set(tools.map(tool => tool.status || 'unknown'))).sort(), [tools])
   const filtered = useMemo(() => {
-    let r = tools
-    if (search) {
-      const q = search.toLowerCase()
-      r = r.filter(t =>
-        t.name.toLowerCase().includes(q) ||
-        t.description?.toLowerCase().includes(q) ||
-        t.best_for?.toLowerCase().includes(q) ||
-        t.tags?.some(tag => tag.toLowerCase().includes(q)) ||
-        t.capabilities?.some(c => c.toLowerCase().includes(q))
-      )
-    }
-    if (cat !== 'all') r = r.filter(t => t.category === cat)
-    if (status !== 'all') r = r.filter(t => (t.status || 'unknown') === status)
-    if (oss) r = r.filter(t => t.open_source)
-    if (byok) r = r.filter(t => t.byok)
-    if (mcp) r = r.filter(t => t.mcp)
-    if (free) r = r.filter(t => t.free || t.free_tier)
-    if (vscode) r = r.filter(t => t.vscode)
-    if (cli) r = r.filter(t => t.cli)
-    return r
-  }, [tools, search, cat, status, oss, byok, mcp, free, vscode, cli])
+    let result = tools
+    if (search) { const query = search.toLowerCase(); result = result.filter(tool => tool.name.toLowerCase().includes(query) || tool.description?.toLowerCase().includes(query) || tool.best_for?.toLowerCase().includes(query) || tool.tags?.some(tag => tag.toLowerCase().includes(query)) || tool.capabilities?.some(capability => capability.toLowerCase().includes(query))) }
+    if (cat !== 'all') result = result.filter(tool => tool.category === cat)
+    if (status !== 'all') result = result.filter(tool => (tool.status || 'unknown') === status)
+    if (filters.oss) result = result.filter(tool => tool.open_source)
+    if (filters.byok) result = result.filter(tool => tool.byok)
+    if (filters.mcp) result = result.filter(tool => tool.mcp)
+    if (filters.free) result = result.filter(tool => tool.free || tool.free_tier)
+    if (filters.vscode) result = result.filter(tool => tool.vscode)
+    if (filters.cli) result = result.filter(tool => tool.cli)
+    return result
+  }, [tools, search, cat, status, filters])
+  const activeFilterCount = Object.values(filters).filter(Boolean).length + (cat !== 'all' ? 1 : 0) + (status !== 'all' ? 1 : 0)
+  const reset = () => { setSearch(''); setCat('all'); setStatus('all'); setFilters({ oss: false, byok: false, mcp: false, free: false, vscode: false, cli: false }); setParams({}) }
+  const chooseCategory = (value: string) => { setCat(value); value === 'all' ? setParams({}) : setParams({ category: value }) }
 
-  return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-white">Tools</h1>
-        <p className="mt-2 text-zinc-400">Browse and filter {tools.length} AI developer tools</p>
-      </div>
-      <div className="mb-6">
-        <input
-          type="text"
-          placeholder="Search tools..."
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-          className="w-full px-4 py-3 bg-neutral-900 border border-white/10 rounded-lg text-white placeholder-zinc-500 focus:outline-none focus:border-indigo-500/50 transition-colors"
-        />
-      </div>
-      <div className="flex flex-wrap gap-3 mb-8">
-        <select value={cat} onChange={e => setCat(e.target.value)} className="px-3 py-2 bg-neutral-900 border border-white/10 rounded-md text-sm text-zinc-300">
-          <option value="all">All Categories</option>
-          {categories.map(c => <option key={c.id} value={c.id}>{c.title}</option>)}
-        </select>
-        <select value={status} onChange={e => setStatus(e.target.value)} className="px-3 py-2 bg-neutral-900 border border-white/10 rounded-md text-sm text-zinc-300">
-          <option value="all">All Statuses</option>
-          {statuses.map(s => <option key={s} value={s}>{s}</option>)}
-        </select>
-        <Toggle label="Open Source" active={oss} onClick={() => setOss(!oss)} />
-        <Toggle label="BYOK" active={byok} onClick={() => setByok(!byok)} />
-        <Toggle label="MCP" active={mcp} onClick={() => setMcp(!mcp)} />
-        <Toggle label="Free" active={free} onClick={() => setFree(!free)} />
-        <Toggle label="VS Code" active={vscode} onClick={() => setVscode(!vscode)} />
-        <Toggle label="CLI" active={cli} onClick={() => setCli(!cli)} />
-      </div>
-      <div className="mb-4 text-sm text-zinc-500">Showing {filtered.length} of {tools.length} tools</div>
-      {filtered.length === 0 ? (
-        <div className="text-center py-16">
-          <p className="text-zinc-400 text-lg">No tools match your filters</p>
-          <p className="text-zinc-500 text-sm mt-2">Try adjusting your search or filter criteria</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map(tool => <ToolCard key={tool.id} tool={tool} />)}
-        </div>
-      )}
-    </div>
-  )
+  return <div className="relative min-h-full overflow-hidden"><div className="page-grid pointer-events-none absolute inset-x-0 top-0 h-96" /><div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+    <div className="reveal flex flex-col justify-between gap-6 border-b border-white/10 pb-8 lg:flex-row lg:items-end"><div><div className="eyebrow flex items-center gap-2"><SlidersHorizontal size={13} /> The tool index</div><h1 className="mt-4 font-display text-4xl font-semibold tracking-tight text-white sm:text-5xl">Find your next<br /><span className="text-[#8fe5e5]">building block.</span></h1><p className="mt-4 max-w-xl text-base leading-7 text-[#8da6b2]">Search {tools.length} developer tools by what they do, where they run, and how they fit your workflow.</p></div><div className="flex gap-5 text-sm text-[#78929e]"><span><strong className="block text-2xl font-semibold text-white">{tools.length}</strong> indexed</span><span><strong className="block text-2xl font-semibold text-white">{categories.length}</strong> categories</span></div></div>
+    <div className="mt-8 grid gap-3 lg:grid-cols-[1fr_auto]"><label className="glass-panel flex items-center gap-3 rounded-xl px-4 py-3.5"><Search size={18} className="text-[#7edce3]" /><input aria-label="Search tools" type="search" placeholder="Search by name, capability, or use case..." value={search} onChange={event => setSearch(event.target.value)} className="min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-[#607b87]" />{search && <button aria-label="Clear search" onClick={() => setSearch('')} className="text-[#718b96] hover:text-white"><X size={16} /></button>}<kbd className="hidden rounded border border-white/10 px-2 py-1 text-[10px] text-[#66808c] sm:block">⌘ K</kbd></label><button onClick={() => setFilterOpen(value => !value)} className="button-secondary inline-flex items-center justify-center gap-2 rounded-xl px-4 py-3 text-sm font-semibold transition"><Filter size={16} /> Filters {activeFilterCount > 0 && <span className="grid h-5 min-w-5 place-items-center rounded-full bg-[#7edce3] px-1 text-[11px] font-bold text-[#081018]">{activeFilterCount}</span>}</button></div>
+    <div className={`${filterOpen ? 'grid' : 'hidden'} mt-3 gap-3 rounded-2xl border border-white/10 bg-white/[.025] p-4 md:grid-cols-2 lg:grid-cols-4`}><Select label="Category" value={cat} onChange={chooseCategory} options={[{ value: 'all', label: 'All categories' }, ...categories.map(category => ({ value: category.id, label: category.title || category.name || category.id }))]} /><Select label="Status" value={status} onChange={setStatus} options={[{ value: 'all', label: 'All statuses' }, ...statuses.map(value => ({ value, label: value }))]} /><div className="md:col-span-2"><p className="mb-2 text-[11px] font-mono uppercase tracking-wider text-[#718b96]">Signals</p><div className="flex flex-wrap gap-2">{[['oss', 'Open source'], ['byok', 'BYOK'], ['mcp', 'MCP'], ['free', 'Free tier'], ['vscode', 'VS Code'], ['cli', 'CLI']].map(([key, label]) => <Toggle key={key} label={label} active={filters[key as keyof typeof filters]} onClick={() => setFilters(current => ({ ...current, [key]: !current[key as keyof typeof filters] }))} />)}</div></div></div>
+    <div className="mt-8 flex items-center justify-between gap-4"><p className="text-sm text-[#819aa5]">Showing <strong className="text-white">{filtered.length}</strong> of {tools.length} tools</p>{activeFilterCount > 0 && <button onClick={reset} className="inline-flex items-center gap-1 text-xs font-semibold text-[#8fe5e5] hover:text-white">Clear filters <X size={13} /></button>}</div>
+    {filtered.length === 0 ? <div className="glass-panel mt-5 rounded-2xl px-6 py-20 text-center"><Search size={25} className="mx-auto text-[#5f818e]" /><p className="mt-4 text-lg font-semibold text-white">No tools match that search</p><p className="mt-2 text-sm text-[#819aa5]">Try a broader term or clear one of your filters.</p><button onClick={reset} className="button-secondary mt-6 rounded-lg px-4 py-2 text-sm font-semibold">Reset explorer</button></div> : <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{filtered.map((tool, index) => <ToolCard key={tool.id} tool={tool} delay={index % 6} />)}</div>}
+  </div></div>
 }
 
-
-function Toggle({ label, active, onClick }: { label: string; active: boolean; onClick: () => void }) {
-  return (
-    <button onClick={onClick}
-      className={'px-3 py-2 text-sm rounded-md border transition-colors ' + (active ? 'bg-indigo-500/15 border-indigo-500/40 text-indigo-300' : 'bg-neutral-900 border-white/10 text-zinc-400 hover:text-zinc-200')}
-    >{label}</button>
-  )
-}
-
-function ToolCard({ tool }: { tool: Tool }) {
-  const catName = tool.category?.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) || 'Unknown'
-  return (
-    <Link to={'/tools/' + tool.id}
-      className="group block p-5 bg-neutral-900/50 border border-white/5 rounded-lg hover:border-indigo-500/30 hover:bg-neutral-900 transition-all duration-200">
-      <div className="flex items-start justify-between gap-3">
-        <div className="flex-1 min-w-0">
-          <h3 className="text-base font-semibold text-white group-hover:text-indigo-300 transition-colors truncate">{tool.name}</h3>
-          <p className="mt-1 text-sm text-zinc-400 line-clamp-2">{tool.description}</p>
-        </div>
-        {tool.open_source && <span className="shrink-0 px-2 py-0.5 text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded">OSS</span>}
-      </div>
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        <span className="px-2 py-0.5 text-xs bg-neutral-800 text-zinc-400 rounded">{catName}</span>
-        {tool.mcp && <span className="px-2 py-0.5 text-xs bg-indigo-500/10 text-indigo-400 rounded">MCP</span>}
-        {tool.byok && <span className="px-2 py-0.5 text-xs bg-amber-500/10 text-amber-400 rounded">BYOK</span>}
-        {(tool.free || tool.free_tier) && <span className="px-2 py-0.5 text-xs bg-emerald-500/10 text-emerald-400 rounded">Free</span>}
-        {tool.vscode && <span className="px-2 py-0.5 text-xs bg-blue-500/10 text-blue-400 rounded">VS Code</span>}
-        {tool.cli && <span className="px-2 py-0.5 text-xs bg-purple-500/10 text-purple-400 rounded">CLI</span>}
-      </div>
-      {tool.autonomy_level !== undefined && (
-        <div className="mt-3 flex items-center gap-2">
-          <span className="text-xs text-zinc-500">Autonomy:</span>
-          <div className="flex gap-0.5">
-            {[1,2,3,4,5].map(l => <div key={l} className={'w-2 h-2 rounded-full ' + (l <= (tool.autonomy_level||0) ? 'bg-indigo-400' : 'bg-neutral-700')} />)}
-          </div>
-        </div>
-      )}
-    </Link>
-  )
-}
-
+function Select({ label, value, onChange, options }: { label: string; value: string; onChange: (value: string) => void; options: { value: string; label: string }[] }) { return <label><span className="mb-2 block text-[11px] font-mono uppercase tracking-wider text-[#718b96]">{label}</span><select value={value} onChange={event => onChange(event.target.value)} className="w-full rounded-lg border border-white/10 bg-[#0d1d27] px-3 py-2.5 text-sm text-[#c2d4da] outline-none transition focus:border-[#7edce3]/50">{options.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label> }
+function Toggle({ label, active, onClick }: { label: string; active: boolean; onClick: () => void }) { return <button onClick={onClick} className={`inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-xs font-semibold transition ${active ? 'border-[#7edce3]/40 bg-[#7edce3]/10 text-[#9becef]' : 'border-white/10 bg-white/[.025] text-[#829ba6] hover:border-white/20 hover:text-white'}`}><span className={`grid h-3.5 w-3.5 place-items-center rounded border ${active ? 'border-[#7edce3] bg-[#7edce3] text-[#081018]' : 'border-[#5b7783]'}`}>{active && <Check size={10} strokeWidth={3} />}</span>{label}</button> }
+function ToolCard({ tool, delay }: { tool: Tool; delay: number }) { const category = tool.category?.replace(/-/g, ' ').replace(/\b\w/g, value => value.toUpperCase()) || 'Unknown'; return <Link to={`/tools/${tool.id}`} className="resource-card interactive group reveal rounded-2xl p-5" style={{ animationDelay: `${delay * 45}ms` }}><div className="flex items-start justify-between gap-4"><div className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-[#7edce3]/10 font-display text-lg font-semibold text-[#8fe5e5]">{tool.name.charAt(0)}</div><div className="flex items-center gap-2">{tool.open_source && <span className="rounded-full border border-[#72d5b3]/25 bg-[#72d5b3]/10 px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-[#7de0bc]">OSS</span>}<ArrowUpRight size={16} className="text-[#607c87] transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#8fe5e5]" /></div></div><p className="mt-5 text-[11px] font-mono uppercase tracking-wider text-[#6f8b96]">{category}</p><h2 className="mt-2 truncate text-lg font-semibold text-white group-hover:text-[#9becef]">{tool.name}</h2><p className="mt-2 line-clamp-2 min-h-12 text-sm leading-6 text-[#839ca7]">{tool.description}</p><div className="mt-5 flex flex-wrap gap-1.5 border-t border-white/8 pt-4">{tool.mcp && <Badge label="MCP" tone="cyan" />}{tool.byok && <Badge label="BYOK" tone="amber" />}{(tool.free || tool.free_tier) && <Badge label="Free" tone="green" />}{tool.vscode && <Badge label="VS Code" tone="blue" />}{tool.cli && <Badge label="CLI" tone="violet" />}</div></Link> }
+function Badge({ label, tone }: { label: string; tone: string }) { const colors: Record<string, string> = { cyan: 'bg-cyan-400/10 text-cyan-300', amber: 'bg-amber-400/10 text-amber-300', green: 'bg-emerald-400/10 text-emerald-300', blue: 'bg-blue-400/10 text-blue-300', violet: 'bg-violet-400/10 text-violet-300' }; return <span className={`rounded-md px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${colors[tone]}`}>{label}</span> }

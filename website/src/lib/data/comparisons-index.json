@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "slug": "best-app-builders",
+    "title": "Best App Builders"
+  },
+  {
+    "slug": "best-autonomous-agents",
+    "title": "Best Autonomous Agents"
+  },
+  {
+    "slug": "best-byok",
+    "title": "Best Byok"
+  },
+  {
+    "slug": "best-cli-agents",
+    "title": "Best Cli Agents"
+  },
+  {
+    "slug": "best-documentation-tools",
+    "title": "Best Documentation Tools"
+  },
+  {
+    "slug": "best-for-large-repositories",
+    "title": "Best For Large Repositories"
+  },
+  {
+    "slug": "best-for-local-ai",
+    "title": "Best For Local Ai"
+  },
+  {
+    "slug": "best-for-low-end-hardware",
+    "title": "Best For Low End Hardware"
+  },
+  {
+    "slug": "best-for-startups",
+    "title": "Best For Startups"
+  },
+  {
+    "slug": "best-for-students",
+    "title": "Best For Students"
+  },
+  {
+    "slug": "best-free-tools",
+    "title": "Best Free Tools"
+  },
+  {
+    "slug": "best-open-source",
+    "title": "Best Open Source"
+  },
+  {
+    "slug": "best-stack-for-ali",
+    "title": "Best Stack For Ali"
+  },
+  {
+    "slug": "best-vscode-agents",
+    "title": "Best Vscode Agents"
+  },
+  {
+    "slug": "tool-comparison-matrix",
+    "title": "Tool Comparison Matrix"
+  },
+  {
+    "slug": "tool-overlap",
+    "title": "Tool Overlap"
+  }
+]

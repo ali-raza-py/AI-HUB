@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "slug": "autonomy-scale",
+    "title": "Autonomy Scale"
+  },
+  {
+    "slug": "comparisons/pricing",
+    "title": "Pricing"
+  },
+  {
+    "slug": "getting-started/beginners",
+    "title": "Beginners"
+  },
+  {
+    "slug": "getting-started/concepts",
+    "title": "Concepts"
+  },
+  {
+    "slug": "getting-started/practical-stack",
+    "title": "Practical Stack"
+  },
+  {
+    "slug": "guides/advanced-agent-workflows",
+    "title": "Advanced Agent Workflows"
+  },
+  {
+    "slug": "guides/ai-coding-rules",
+    "title": "Ai Coding Rules"
+  },
+  {
+    "slug": "guides/coding-agent-prompts",
+    "title": "Coding Agent Prompts"
+  },
+  {
+    "slug": "guides/decision-tree",
+    "title": "Decision Tree"
+  },
+  {
+    "slug": "guides/hardware",
+    "title": "Hardware"
+  },
+  {
+    "slug": "mcp-guide",
+    "title": "Mcp Guide"
+  },
+  {
+    "slug": "quality-control",
+    "title": "Quality Control"
+  },
+  {
+    "slug": "security/ai-coding-security",
+    "title": "Ai Coding Security"
+  },
+  {
+    "slug": "security/privacy",
+    "title": "Privacy"
+  },
+  {
+    "slug": "tool-index",
+    "title": "Tool Index"
+  },
+  {
+    "slug": "workflows/ai-coding-workflows",
+    "title": "Ai Coding Workflows"
+  },
+  {
+    "slug": "workflows/student",
+    "title": "Student"
+  }
+]

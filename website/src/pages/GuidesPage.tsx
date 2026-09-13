@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { ArrowUpRight, BookOpen } from 'lucide-react'
+import guidesData from '../lib/data/guides-index.json'
 
 interface Guide {
   slug: string
@@ -7,19 +8,11 @@ interface Guide {
 }
 
 export default function GuidesPage() {
-  const [guides, setGuides] = useState<Guide[]>([])
-
-  useEffect(() => {
-    import('../lib/data/guides-index.json').then(m => {
-      setGuides((m.default || m) as Guide[])
-    })
-  }, [])
+  const guides = guidesData as Guide[]
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-white">Guides</h1>
-        <p className="mt-2 text-zinc-400">Learn key concepts and make informed decisions</p>
+    <div className="relative overflow-hidden"><div className="page-grid pointer-events-none absolute inset-x-0 top-0 h-80" /><div className="relative mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <div className="reveal mb-12 border-b border-white/10 pb-8"><div className="eyebrow flex items-center gap-2"><BookOpen size={13} /> Field notes</div><h1 className="mt-4 font-display text-4xl font-semibold text-white sm:text-5xl">Learn the<br /><span className="text-[#8fe5e5]">landscape.</span></h1><p className="mt-4 max-w-xl text-base leading-7 text-[#8da6b2]">Short, practical guides for understanding the ecosystem and making better tooling decisions.</p>
       </div>
 
       {guides.length === 0 ? (
@@ -27,21 +20,21 @@ export default function GuidesPage() {
           <p className="text-zinc-400">Loading guides...</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {guides.map(guide => (
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          {guides.map((guide, index) => (
             <Link
               key={guide.slug}
               to={`/guides/${guide.slug}`}
-              className="group p-5 bg-neutral-900/50 border border-white/5 rounded-lg hover:border-indigo-500/30 transition-all duration-200"
+              className="resource-card interactive group reveal rounded-2xl p-5"
+              style={{ animationDelay: `${index * 55}ms` }}
             >
-              <h3 className="text-base font-semibold text-white group-hover:text-indigo-300 transition-colors">
-                {guide.title}
-              </h3>
-              <p className="mt-1 text-sm text-zinc-500">{guide.slug.replace(/\//g, ' → ')}</p>
+              <div className="flex items-start justify-between gap-4"><span className="grid h-10 w-10 place-items-center rounded-xl bg-[#7edce3]/10 font-mono text-sm text-[#8fe5e5]">{String(index + 1).padStart(2, '0')}</span><ArrowUpRight size={17} className="text-[#607c87] transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#8fe5e5]" /></div>
+              <h3 className="mt-6 text-base font-semibold text-white group-hover:text-[#9becef]">{guide.title}</h3>
+              <p className="mt-2 text-xs font-mono uppercase tracking-wider text-[#6f8b96]">{guide.slug.replace(/\//g, ' / ')}</p>
             </Link>
           ))}
         </div>
       )}
-    </div>
+    </div></div>
   )
 }

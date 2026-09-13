@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs"
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, cpSync } from "node:fs"
 import { execSync } from "node:child_process"
 import path from "node:path"
 
@@ -54,7 +54,7 @@ function scanDir(dir, base) {
   const out = []
   let entries
   try {
-    entries = require("node:fs").readdirSync(dir, { withFileTypes: true })
+    entries = readdirSync(dir, { withFileTypes: true })
   } catch (e) {
     return out
   }
@@ -76,6 +76,20 @@ const docsDir = `${ROOT}/ai-coding-tools/docs`
 const compsDir = `${ROOT}/ai-coding-tools/comparisons`
 writeFileSync(`${OUT}/guides-index.json`, JSON.stringify(scanDir(docsDir, ""), null, 2))
 writeFileSync(`${OUT}/comparisons-index.json`, JSON.stringify(scanDir(compsDir, ""), null, 2))
+
+function collectMarkdown(dir, base = "", result = {}) {
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const rel = base ? `${base}/${entry.name}` : entry.name
+    if (entry.isDirectory()) collectMarkdown(`${dir}/${entry.name}`, rel, result)
+    else if (entry.name.endsWith(".md") && entry.name !== "index.md") result[rel.replace(/\.md$/, "")] = readFileSync(`${dir}/${entry.name}`, "utf8")
+  }
+  return result
+}
+
+const publicGuidesDir = `${ROOT}/website/public/guides`
+mkdirSync(publicGuidesDir, { recursive: true })
+cpSync(docsDir, publicGuidesDir, { recursive: true })
+cpSync(compsDir, `${publicGuidesDir}/comparisons`, { recursive: true })
 
 // Build category counts
 const counts = {}

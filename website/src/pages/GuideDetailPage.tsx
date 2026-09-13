@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { ArrowLeft } from 'lucide-react'
 
 export default function GuideDetailPage() {
   const { guideSlug } = useParams<{ guideSlug: string }>()
@@ -14,20 +15,20 @@ export default function GuideDetailPage() {
 
     const slug = guideSlug.replace(/[^a-zA-Z0-9-_/]/g, '')
     const isComparison = slug.startsWith('comparisons/')
-    const filePath = isComparison ? slug : `docs/${slug}`
-
-    import(`../../ai-coding-tools/${filePath}.md?raw`)
-      .then(m => setContent(m.default as string))
+    const assetPath = isComparison ? slug : slug.replace(/^docs\//, '')
+    fetch(`${import.meta.env.BASE_URL}guides/${assetPath}.md`)
+      .then(response => response.ok ? response.text() : Promise.reject(new Error('Guide not found')))
+      .then(setContent)
       .catch(() => setError(true))
   }, [guideSlug])
 
   if (error) {
     return (
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+      <div className="mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 lg:px-8">
         <h1 className="text-2xl font-bold text-white">Guide not found</h1>
         <p className="mt-2 text-zinc-400">The guide "{guideSlug}" could not be loaded.</p>
-        <Link to="/guides" className="mt-6 inline-block text-indigo-400 hover:text-indigo-300">
-          ← Back to guides
+        <Link to="/guides" className="button-secondary mt-6 inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold">
+          <ArrowLeft size={15} /> Back to guides
         </Link>
       </div>
     )
@@ -35,26 +36,22 @@ export default function GuideDetailPage() {
 
   if (!content) {
     return (
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-        <p className="text-zinc-400 animate-pulse">Loading guide...</p>
+      <div className="mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 lg:px-8">
+        <p className="text-[#8da6b2] animate-pulse">Loading guide...</p>
       </div>
     )
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <nav className="mb-6 text-sm text-zinc-500">
-        <Link to="/guides" className="hover:text-zinc-300">Guides</Link>
-        <span className="mx-2">/</span>
-        <span className="text-zinc-300">{guideSlug}</span>
+    <div className="relative overflow-hidden"><div className="page-grid pointer-events-none absolute inset-x-0 top-0 h-80" /><div className="relative mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+      <nav className="mb-8 flex items-center gap-2 text-sm text-[#78929e]"><Link to="/guides" className="inline-flex items-center gap-2 hover:text-white"><ArrowLeft size={14} /> Guides</Link><span>/</span><span className="truncate text-[#b8cbd2]">{guideSlug}</span>
       </nav>
-      <article
-        className="prose-hub"
+      <article className="prose-hub reveal"
         dangerouslySetInnerHTML={{
           __html: renderMarkdown(content)
         }}
       />
-    </div>
+    </div></div>
   )
 }
 
