@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight, Boxes, ChevronRight, GitCompare, Search, Sparkles } from 'lucide-react'
+import { ArrowRight, ArrowUpRight, Boxes, Check, ChevronRight, Command, GitCompare, Search, Sparkles, WandSparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import CursorPixelField from '../components/CursorPixelField'
 import type { Category, Tool } from '../lib/types'
@@ -10,28 +10,52 @@ interface HomePageProps {
 
 export default function HomePage({ tools, categories }: HomePageProps) {
   const featured = tools.slice(0, 6)
+  const signalTools = tools.slice(0, 5)
+
   return <div className="homepage relative overflow-hidden">
-    <CursorPixelField className="hero-reference">
-      <div className="hero-grid-meta"><span>AI-HUB / INDEX 2026</span><span>BUILDING WITH INTELLIGENCE</span></div>
-      <div className="hero-scroll-cue"><span className="hero-scroll-line" />SCROLL FOR MORE <span className="hero-scroll-arrow">↓</span></div>
+    <CursorPixelField className="hero-reference premium-hero">
+      <div className="hero-noise" aria-hidden="true" />
+      <div className="hero-grid-meta"><span>AI-HUB / INDEX 2026</span><span>THE BUILDER'S SIGNAL</span></div>
       <div className="hero-content-wrap">
         <div className="hero-headline-block reveal">
-          <p className="hero-kicker">A practical index for modern builders</p>
-          <h1 className="hero-headline">A clearer way to find<br /><span className="hero-pixel-word">[ AI TOOLS ]</span><br />for smarter workflows.</h1>
+          <div className="hero-kicker"><span className="status-dot" /> Curated intelligence for modern builders</div>
+          <h1 className="hero-headline">The signal<br /><span className="hero-pixel-word">inside AI.</span></h1>
+          <p className="hero-lede">An open, opinionated index of the tools, models, and workflows shaping what gets built next.</p>
+          <div className="hero-inline-actions">
+            <Link to="/tools" className="hero-cta">EXPLORE THE INDEX <ArrowUpRight size={16} /></Link>
+            <Link to="/guides" className="hero-secondary"><span className="hero-play">↗</span> READ THE FIELD NOTES</Link>
+          </div>
         </div>
         <div className="hero-side reveal reveal-delay-2">
-          <div className="hero-proof"><span className="hero-proof-mark">✦</span><strong>{tools.length}</strong> tools indexed <span className="hero-divider" /> <strong>{categories.length}</strong> categories</div>
-          <p className="hero-description">Discover, compare, and understand the tools changing how software gets built. One open registry for clearer decisions.</p>
-          <div className="hero-actions"><Link to="/tools" className="hero-cta">GET STARTED <ArrowUpRight size={16} /></Link><Link to="/guides" className="hero-secondary"><span className="hero-play">▶</span> READ THE GUIDES</Link></div>
+          <div className="signal-console" aria-label="AI-HUB signal map">
+            <div className="console-top"><span><span className="live-dot" /> SIGNAL MAP / LIVE</span><span className="mono">0xAIHUB</span></div>
+            <div className="signal-orbit signal-orbit-one" />
+            <div className="signal-orbit signal-orbit-two" />
+            <div className="signal-core"><WandSparkles size={23} /><span>AI<br />HUB</span></div>
+            {signalTools.map((tool, index) => <div key={tool.id} className={`signal-node signal-node-${index + 1}`}><span>{tool.name.slice(0, 2).toUpperCase()}</span><small>{tool.name}</small></div>)}
+            <div className="console-readout"><span>INDEXED NODES</span><strong>{tools.length}</strong><span className="readout-bar"><i /></span></div>
+          </div>
+          <div className="hero-proof"><strong>{tools.length}</strong> tools indexed <span className="hero-divider" /><strong>{categories.length}</strong> routes to explore</div>
         </div>
       </div>
-      <div className="hero-brand-strip"><span>OPEN REGISTRY</span><span>100+ DEVELOPER TOOLS</span><span>SEARCH / COMPARE / BUILD</span><span>AI-HUB</span></div>
+      <div className="hero-brand-strip"><span>OPEN REGISTRY</span><span>SEARCH / COMPARE / BUILD</span><span>MADE FOR THE CURIOUS</span><span>SCROLL TO EXPLORE ↓</span></div>
     </CursorPixelField>
 
-    <section className="relative mx-auto max-w-7xl px-4 pb-20 pt-16 sm:px-6 sm:pb-28 lg:px-8"><div className="grid items-start gap-14 lg:grid-cols-[.86fr_1.14fr]"><div className="reveal"><div className="eyebrow flex items-center gap-2"><Sparkles size={13} /> Start somewhere useful</div><h2 className="mt-4 max-w-md font-display text-4xl font-semibold tracking-tight text-white sm:text-5xl">See the ecosystem<br /><span className="text-[#f5c542]">at a glance.</span></h2><p className="mt-5 max-w-md text-base leading-7 text-[#91aab5]">A live index for choosing tools based on how you work, not how loudly they market themselves.</p><Link to="/categories" className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-[#f5c542] hover:text-white">Explore categories <ArrowRight size={15} /></Link></div><div className="relative reveal reveal-delay-2"><div className="glass-panel relative overflow-hidden rounded-3xl p-5 sm:p-6"><div className="mb-5 flex items-center justify-between"><div><div className="eyebrow">Live index</div><p className="mt-2 text-sm text-[#bdd0d7]">A calmer way to explore the ecosystem</p></div><div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#f5c542]/10 text-[#f5c542]"><Search size={17} /></div></div><div className="mb-4 flex items-center gap-3 rounded-xl border border-white/10 bg-black/20 px-3 py-3 text-sm text-[#6e8995]"><Search size={16} /> Search 102 tools...</div><div className="space-y-2">{featured.slice(0, 4).map((tool, index) => <Link key={tool.id} to={`/tools/${tool.id}`} className="resource-card interactive flex items-center gap-3 rounded-xl p-3"><span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/6 text-xs font-bold text-[#f5c542]">0{index + 1}</span><span className="min-w-0 flex-1"><strong className="block truncate text-sm font-semibold text-white">{tool.name}</strong><span className="block truncate text-xs text-[#829ba6]">{tool.description}</span></span><ChevronRight size={16} className="text-[#5e7985]" /></Link>)}</div><Link to="/tools" className="mt-5 flex items-center justify-between rounded-xl border border-dashed border-[#f5c542]/25 px-4 py-3 text-sm text-[#f5c542] transition hover:bg-[#f5c542]/5"><span>Browse the full registry</span><ArrowRight size={15} /></Link></div></div></div></section>
+    <section className="home-section home-overview relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+      <div className="section-intro reveal"><div><div className="eyebrow flex items-center gap-2"><Sparkles size={13} /> Less noise. Better decisions.</div><h2 className="mt-4 max-w-xl font-display text-4xl font-semibold tracking-tight text-white sm:text-5xl">Your next best tool is probably already here.</h2></div><p className="max-w-sm text-base leading-7 text-[#9aa5a8]">Skip the launch-day hype. Search by how you work, compare the tradeoffs, and find a stack that actually fits.</p></div>
+      <div className="overview-grid mt-14">
+        <div className="explorer-panel glass-panel reveal">
+          <div className="panel-heading"><div><div className="eyebrow">Live index</div><p className="mt-2 text-sm text-[#c4ccca]">A calmer way to explore the ecosystem</p></div><span className="panel-icon"><Search size={17} /></span></div>
+          <div className="explorer-search"><Search size={16} /><span>Search tools, capabilities, workflows...</span><kbd><Command size={11} /> K</kbd></div>
+          <div className="explorer-list">{featured.slice(0, 4).map((tool, index) => <Link key={tool.id} to={`/tools/${tool.id}`} className="explorer-row"><span className="row-index">0{index + 1}</span><span className="min-w-0 flex-1"><strong>{tool.name}</strong><small>{tool.category?.replace(/-/g, ' ') || 'developer tool'}</small></span><span className="row-status"><Check size={12} /> indexed</span><ChevronRight size={15} /></Link>)}</div>
+          <Link to="/tools" className="panel-link">Open the full index <ArrowRight size={15} /></Link>
+        </div>
+        <div className="metric-stack reveal reveal-delay-1"><div className="metric-card"><span className="metric-label">TOOLS INDEXED</span><strong>{tools.length}<sup>+</sup></strong><span className="metric-foot">and growing every week</span></div><div className="metric-card metric-card-accent"><span className="metric-label">WAYS TO START</span><strong>{categories.length}</strong><span className="metric-foot">from models to shipping</span></div></div>
+      </div>
+    </section>
 
-    <section className="relative border-y border-white/8 bg-white/[.018]"><div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end"><div><div className="eyebrow">Explore the system</div><h2 className="mt-3 font-display text-3xl font-semibold text-white">Find your starting point</h2></div><Link to="/categories" className="inline-flex items-center gap-1 text-sm font-semibold text-[#f5c542] hover:text-white">View all categories <ArrowRight size={15} /></Link></div><div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{categories.map((category, index) => <Link key={category.id} to={`/tools?category=${category.id}`} className="resource-card interactive group rounded-2xl p-5 reveal" style={{ animationDelay: `${index * 60}ms` }}><div className="flex items-start justify-between"><span className="grid h-10 w-10 place-items-center rounded-xl bg-[#f5c542]/10 text-[#f5c542]">{index === 0 ? <Boxes size={18} /> : index === 1 ? <GitCompare size={18} /> : <Sparkles size={18} />}</span><ArrowRight size={17} className="text-[#5a7783] transition group-hover:-rotate-45 group-hover:text-[#f5c542]" /></div><h3 className="mt-5 text-base font-semibold text-white">{category.title || category.name}</h3><p className="mt-2 line-clamp-2 text-sm leading-6 text-[#839ca7]">{category.description}</p></Link>)}</div></div></section>
+    <section className="home-section category-section border-y border-white/8 bg-white/[.018]"><div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-24"><div className="section-heading-row"><div><div className="eyebrow">Choose a direction</div><h2 className="mt-3 font-display text-3xl font-semibold text-white sm:text-4xl">Find your starting point.</h2></div><Link to="/categories" className="text-link">View all categories <ArrowRight size={15} /></Link></div><div className="category-grid mt-10">{categories.slice(0, 6).map((category, index) => <Link key={category.id} to={`/tools?category=${category.id}`} className="category-card reveal" style={{ animationDelay: `${index * 60}ms` }}><div className="category-number">0{index + 1}</div><span className="category-icon">{index === 0 ? <Boxes size={18} /> : index === 1 ? <GitCompare size={18} /> : <Sparkles size={18} />}</span><h3>{category.title || category.name}</h3><p>{category.description}</p><ArrowUpRight className="category-arrow" size={17} /></Link>)}</div></div></section>
 
-    <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end"><div><div className="eyebrow">Curated starting points</div><h2 className="mt-3 font-display text-3xl font-semibold text-white">Worth a closer look</h2></div><Link to="/compare" className="inline-flex items-center gap-1 text-sm font-semibold text-[#f5c542] hover:text-white">Compare tools <GitCompare size={15} /></Link></div><div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{featured.map((tool, index) => <Link key={tool.id} to={`/tools/${tool.id}`} className="resource-card interactive group rounded-2xl p-5 reveal" style={{ animationDelay: `${index * 50}ms` }}><div className="flex items-center justify-between"><span className="text-xs font-mono uppercase tracking-wider text-[#6f8b96]">{tool.category?.replace(/-/g, ' ')}</span>{tool.open_source && <span className="rounded-full border border-[#72d5b3]/25 bg-[#72d5b3]/10 px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-[#7de0bc]">Open source</span>}</div><h3 className="mt-5 text-lg font-semibold text-white group-hover:text-[#f5c542]">{tool.name}</h3><p className="mt-2 line-clamp-2 text-sm leading-6 text-[#839ca7]">{tool.description}</p><div className="mt-5 flex items-center justify-between border-t border-white/8 pt-4 text-xs text-[#78929e]"><span>{tool.pricing_summary || tool.pricing || 'See details'}</span><ChevronRight size={15} className="transition group-hover:translate-x-1 group-hover:text-[#f5c542]" /></div></Link>)}</div></section>
+    <section className="home-section mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-24"><div className="section-heading-row"><div><div className="eyebrow">Curated starting points</div><h2 className="mt-3 font-display text-3xl font-semibold text-white sm:text-4xl">Worth a closer look.</h2></div><Link to="/compare" className="text-link">Compare tools <GitCompare size={15} /></Link></div><div className="featured-grid mt-10">{featured.map((tool, index) => <Link key={tool.id} to={`/tools/${tool.id}`} className="featured-card reveal" style={{ animationDelay: `${index * 50}ms` }}><div className="featured-top"><span className="tool-monogram">{tool.name.charAt(0)}</span><span className="tool-index">0{index + 1} / {tool.category?.replace(/-/g, ' ')}</span><ArrowUpRight size={16} /></div><h3>{tool.name}</h3><p>{tool.description}</p><div className="featured-bottom"><span>{tool.pricing_summary || tool.pricing || 'Explore details'}</span><span className="card-arrow"><ArrowRight size={14} /></span></div></Link>)}</div></section>
   </div>
 }

@@ -26,10 +26,10 @@ export default function Navbar() {
     <nav className="site-nav sticky top-0 z-50 px-3 pt-3 sm:px-4">
       <div className="nav-frame mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" onClick={() => setOpen(false)} className="group flex items-center gap-3">
-          <span className="grid h-9 w-9 place-items-center rounded-none bg-[#f5c542] text-[#111315] transition-transform group-hover:rotate-3">
+          <span className="brand-mark grid h-9 w-9 place-items-center text-[#111315] transition-transform group-hover:rotate-3">
             <span className="font-display text-lg font-bold">A</span>
           </span>
-          <span className="font-display text-base font-bold tracking-tight text-white">AI<span className="text-[#f5c542]">-HUB</span></span>
+          <span className="font-display text-base font-bold tracking-tight text-white">AI<span className="text-[#f5c542]">-HUB</span><small> / intelligence index</small></span>
         </Link>
         <div className="hidden items-center gap-1 md:flex">
           {links.map(link => {

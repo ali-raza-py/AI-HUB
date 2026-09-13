@@ -1,14 +1,6 @@
+import { ArrowUpRight } from 'lucide-react'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+
 export default function Footer() {
-  return (
-    <footer className="border-t border-white/10 bg-[#071018]/70">
-      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
-          <div className="text-sm text-[#8da6b2]">
-            <span className="font-semibold text-[#dce8f0]">AI-HUB</span> — a clearer way to navigate AI development.
-          </div>
-          <div className="text-xs text-[#66808c]">
-            Public registry · React · TypeScript · Tailwind CSS
-          </div>
-      </div>
-    </footer>
-  )
+  return <footer className="footer-shell"><div className="footer-inner"><div className="footer-caption"><span>AI-HUB</span><i /> Connect with the project</div><div className="social-dock" aria-label="AI-HUB social links"><a className="social-link" href="https://github.com/ali-raza-py/AI-HUB" target="_blank" rel="noopener noreferrer" aria-label="AI-HUB on GitHub"><span className="social-icon"><FaGithub size={22} /></span><span className="social-copy"><strong>GitHub</strong><small>Source registry</small></span><ArrowUpRight className="social-arrow" size={16} /></a><a className="social-link" href="https://www.linkedin.com/in/ali-raza-py/" target="_blank" rel="noopener noreferrer" aria-label="Ali Raza on LinkedIn"><span className="social-icon"><FaLinkedinIn size={22} /></span><span className="social-copy"><strong>LinkedIn</strong><small>Professional profile</small></span><ArrowUpRight className="social-arrow" size={16} /></a></div><div className="footer-meta"><span>AI-HUB / 2026</span><span>OPEN REGISTRY</span></div></div></footer>
 }
