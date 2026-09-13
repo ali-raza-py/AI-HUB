@@ -98,6 +98,8 @@ button, a, select, input { -webkit-tap-highlight-color: transparent; }
 .hero-play { font-size: 16px; }
 .hero-brand-strip { position: absolute; right: 0; bottom: 0; left: 0; z-index: 2; display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.16); padding: 12px 34px; color: #777e7e; font: 9px var(--font-mono); letter-spacing: .15em; }
 .homepage .eyebrow { color: #f5c542; }
+.tools-controls { position: sticky; top: 96px; z-index: 30; padding: 8px; border: 1px solid rgba(245,197,66,.14); background: rgba(17,19,21,.82); backdrop-filter: blur(16px); }
+html.light .tools-controls { border-color: rgba(57,54,32,.14); background: rgba(245,244,237,.88); }
 .site-nav { background: transparent; }
 .nav-frame { position: relative; overflow: hidden; border: 1px solid #303638; border-radius: 0 0 22px 22px; background: rgba(17, 19, 21, .96); box-shadow: 0 12px 34px rgba(0, 0, 0, .18); }
 .nav-frame::before, .nav-frame::after { position: absolute; top: 0; width: 7px; height: 7px; background: #f5c542; content: ''; }
