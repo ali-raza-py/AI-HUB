@@ -8,8 +8,9 @@
     "MD036": false,
     "MD040": false,
     "MD041": false,
+    "MD003": false,
     "MD060": false,
-    "MD024": { "siblings_only": true }
+    "MD024": false
   },
   "globs": ["**/*.md"],
   "ignores": ["node_modules/**", "**/node_modules/**"]
