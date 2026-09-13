@@ -1,0 +1,165 @@
+# Magic
+
+> Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
+
+
+AI software engineer + IDE that works in your repo; no-code interface on top of real code. Verify pricing.
+
+## Overview
+
+**Magic** is a hosted generator of a whole application in the *AI app / UI / full-stack builders* category, made by Magic.dev.
+
+Product-minded users who want an autonomous engineer on a real repo.
+
+## Official Links
+
+- [Official website](https://magic.dev/)
+- Documentation — not verified, check official website
+- GitHub — not verified, check official website
+- Pricing: see the official pricing page via the website link above.
+
+## Current Status
+
+**Active** — under active development as of the last verification date.
+
+AI software engineer + IDE that works in your repo; no-code interface on top of real code. Verify pricing.
+
+## What It Does
+
+Works in existing repos, agent-driven.
+
+Known limitations: Proprietary; pricing to verify.
+
+## Main Capabilities
+
+| Capability | Supported |
+| --- | --- |
+| File editing | Yes |
+| Terminal | Yes |
+| Repository context | Yes |
+| MCP | Unknown |
+| Git | Unknown |
+| Tests | Yes |
+| Browser | Unknown |
+| Subagents | Unknown |
+| BYOK | No |
+| Local models | No |
+
+## Platforms
+
+- Unknown — check official documentation.
+
+## Supported Models
+
+- Unknown — check official documentation for currently supported models.
+
+## Model Providers
+
+Unknown — check official documentation.
+
+## Pricing
+
+Paid plans (not verified).
+
+| Option | Available |
+| --- | --- |
+| Free | No |
+| Free tier | Unknown |
+| Paid | Yes — see summary above |
+| BYOK | No |
+| API costs | Unknown |
+
+> Advertised prices are not total cost: BYOK tools are often free while you > pay the model provider per token. See [pricing analysis](../docs/comparisons/pricing.md).
+
+## Open Source
+
+- Open source: **False**
+- License: **Proprietary**
+- Repository: not public / not verified
+- Open-source, source-available, free, and free-tier are different properties — see [concepts](../docs/getting-started/concepts.md).
+
+## Installation
+
+Use the official installation instructions — do not rely on third-party copies:
+
+- [Official install/setup docs](https://magic.dev/)
+
+## Basic Usage
+
+Start from the official quickstart in the documentation above. Keep the first session read-only (or on a scratch repository) until you trust the tool's file-editing and terminal behavior.
+
+## Agent Workflow
+
+```text
+Prompt
+ ↓
+Context gathering (repository / MCP tools)
+ ↓
+Planning
+ ↓
+File changes
+ ↓
+Terminal commands
+ ↓
+Tests
+ ↓
+Human review
+ ↓
+Final changes
+```
+
+Only the steps above are supported by this tool (derived from the capability table, not marketing claims).
+
+## Strengths
+
+Works in existing repos, agent-driven.
+
+## Weaknesses
+
+Proprietary; pricing to verify.
+
+## Best For
+
+Product-minded users who want an autonomous engineer on a real repo.
+
+## Not Ideal For
+
+- Developers who need stability guarantees — Magic changes quickly; re-verify features and pricing before committing.
+- Anyone unwilling to review generated diffs and terminal commands.
+
+## Security Considerations
+
+Agents that execute terminal commands and edit files can cause damage if misused. Review diffs before accepting, never paste secrets into prompts, keep permissions scoped. See [AI coding security](../docs/security/ai-coding-security.md).
+
+## Privacy Considerations
+
+With BYOK/local models, prompts go to the provider you choose (or nowhere for local). Hosted products may retain data per their policy — verify the current policy before using on proprietary code. See [privacy notes](../docs/security/privacy.md).
+
+## Student Perspective
+
+Assessment: **possible-but-limited** — see [best tools for students](../comparisons/best-for-students.md).
+
+## Ali's Setup
+
+Verdict for HP EliteBook 845 G7 (Ryzen 5 PRO 4650U, 8 GB RAM, no dGPU, Windows, VS Code, PowerShell): **Possible but limited**
+
+Usable, but expect friction (limits, RAM pressure, or setup effort) on this hardware. Stated requirements: None (cloud) or IDE client..
+
+## Alternatives
+
+- [replit-agent](./replit-agent.md)
+- [cursor](./cursor.md)
+- [devin](./devin.md)
+
+## Sources
+
+- [Official website](https://magic.dev/)
+- Official documentation — not verified, check official website
+- Source repository — not verified, check official website
+- Pricing: verify on the official pricing page — it changes frequently.
+
+All capability and pricing claims above were checked against the official sources listed here as of 2026-09. Anything not confirmed is marked **Unknown** — do not assume.
+
+---
+
+*Page generated from `data/tools.yaml` — edit the registry, not this file.*

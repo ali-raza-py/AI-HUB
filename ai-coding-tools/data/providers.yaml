@@ -1,0 +1,156 @@
+# Model providers referenced throughout tools.yaml.
+# This file is the source of truth for provider identity, API surface, and
+# local/open-weight availability.
+# Last verified: September 2026
+#
+# attribute      meaning
+# --------       -------
+# id             stable identifier used in tools.yaml "model_providers"
+# name           display name
+# official_url   official website/docs
+# api            primary API surface (OpenAI-compatible, Anthropic-style, etc.)
+# byok           can a tool user supply their own key for this provider?
+# local          does the provider have an officially supported local serving path?
+# notes          short verified notes
+
+providers:
+- id: anthropic
+  name: Anthropic
+  official_url: https://www.anthropic.com/
+  api: Anthropic API (Messages API) + native subscription auth
+  byok: true
+  local: false
+  notes: 'Vendor of Claude models. Enables sign-in with Claude Pro/Max subscriptions in several agents
+    (Claude Code, Cline, Kilo Code, Roo Code, Aider, Plandex).
+
+    '
+  last_verified: 2026-09
+- id: openai
+  name: OpenAI
+  official_url: https://openai.com/
+  api: OpenAI API / Responses API
+  byok: true
+  local: false
+  notes: Vendor of GPT/Codex model families and the Codex agent product.
+  last_verified: 2026-09
+- id: google
+  name: Google (Gemini / Vertex AI)
+  official_url: https://ai.google.dev/
+  api: Gemini API; Vertex AI for enterprise
+  byok: true
+  local: false
+  notes: Gemini model family, Gemini CLI, Jules, Firebase Studio/IDX.
+  last_verified: 2026-09
+- id: openrouter
+  name: OpenRouter
+  official_url: https://openrouter.ai/
+  api: OpenAI-compatible gateway over many providers
+  byok: true
+  local: false
+  notes: Single-key gateway to hundreds of hosted models; popular for BYOK.
+  last_verified: 2026-09
+- id: ollama
+  name: Ollama
+  official_url: https://ollama.com/
+  api: OpenAI-compatible local API (:11434)
+  byok: true
+  local: true
+  notes: Popular local runner for Llama/Qwen/Mistral open-weight families.
+  last_verified: 2026-09
+- id: lm-studio
+  name: LM Studio
+  official_url: https://lmstudio.ai/
+  api: OpenAI-compatible local API
+  byok: true
+  local: true
+  notes: Local model host with a user interface; OpenAI-compatible endpoint.
+  last_verified: 2026-09
+- id: azure-openai
+  name: Azure OpenAI
+  official_url: https://learn.microsoft.com/en-us/azure/ai-services/openai/
+  api: Azure OpenAI API
+  byok: true
+  local: false
+  notes: Enterprise deployment of OpenAI models on Azure.
+  last_verified: 2026-09
+- id: amazon-bedrock
+  name: Amazon Bedrock
+  official_url: https://aws.amazon.com/bedrock/
+  api: Bedrock API (Claude, Llama, Mistral, Nova, etc.)
+  byok: true
+  local: false
+  notes: Managed model gateway inside AWS; supported by Cline, Kilo Code, others.
+  last_verified: 2026-09
+- id: vertex-ai
+  name: Google Vertex AI
+  official_url: https://cloud.google.com/vertex-ai
+  api: Vertex AI (Gemini, open models)
+  byok: true
+  local: false
+  notes: GCP managed model gateway.
+  last_verified: 2026-09
+- id: together
+  name: Together AI
+  official_url: https://www.together.ai/
+  api: OpenAI-compatible hosted inference
+  byok: true
+  local: false
+  notes: Hosted open-weight model inference.
+  last_verified: 2026-09
+- id: groq
+  name: Groq
+  official_url: https://groq.com/
+  api: OpenAI-compatible fast inference
+  byok: true
+  local: false
+  notes: Very fast hosted inference; marketed for low-latency agents.
+  last_verified: 2026-09
+- id: meta
+  name: Meta AI
+  official_url: https://ai.meta.com/
+  api: true
+  byok: true
+  local: false
+  notes: Llama family. Weights downloadable; license (Llama Community) is open-weight, not OSI-open —
+    verify current terms.
+  last_verified: 2026-09
+- id: alibaba
+  name: Alibaba (Qwen)
+  official_url: https://qwen.ai/
+  api: true
+  byok: true
+  local: false
+  notes: Qwen family; open-weight releases widely used for local agents.
+  last_verified: 2026-09
+- id: deepseek
+  name: DeepSeek
+  official_url: https://www.deepseek.com/
+  api: true
+  byok: true
+  local: false
+  notes: DeepSeek-V3/R1 line; open-weight releases + hosted API.
+  last_verified: 2026-09
+- id: moonshot-ai
+  name: Moonshot AI
+  official_url: https://www.moonshot.ai/
+  api: true
+  byok: true
+  local: false
+  notes: Kimi family (long-context models).
+  last_verified: 2026-09
+- id: zhipu-ai
+  name: Zhipu (Z.ai)
+  official_url: https://z.ai/
+  api: true
+  byok: true
+  local: false
+  notes: GLM family; open-weight releases used for local coding agents.
+  last_verified: 2026-09
+- id: xai
+  name: xAI
+  official_url: https://x.ai/
+  api: true
+  byok: true
+  local: false
+  notes: Grok family; API access via x.ai console.
+  last_verified: 2026-09

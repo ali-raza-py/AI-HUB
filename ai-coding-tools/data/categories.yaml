@@ -1,0 +1,110 @@
+# Categories of AI coding tools and developer tools tracked in this repository.
+# This file is the source of truth for category/subcategory classification.
+# Last verified: September 2026
+
+categories:
+- id: vscode-ide-agents
+  name: VS Code / IDE AI agents
+  description: 'AI coding assistants and agents that run inside an editor or IDE (VS Code, JetBrains,
+    Cursor, Windsurf, Zed, Trae, Kiro, etc.).
+
+    '
+  parent: null
+- id: terminal-agents
+  name: Terminal / CLI coding agents
+  description: 'AI agents controlled from a terminal or command line. Many can read a repository, edit
+    files, and execute commands.
+
+    '
+  parent: null
+- id: open-source-byok
+  name: Open-source / BYOK / local AI tools
+  description: 'Tools distinguished by open-source licensing, bring-your-own-key model access, and/or
+    local-model (Ollama, LM Studio, llama.cpp) support. These attributes overlap heavily with categories
+    A and B and are tracked per-tool in tools.yaml, not as separate products.
+
+    '
+  parent: null
+- id: autonomous-agents
+  name: Autonomous software-engineering agents
+  description: 'Agents designed to work on a task end-to-end with minimal human intervention: plan, edit,
+    test, iterate, and produce a pull request.
+
+    '
+  parent: null
+- id: app-builders
+  name: AI app / UI / full-stack builders
+  description: 'Hosted products that generate, deploy, and iterate on applications from natural-language
+    prompts. Different from editor agents: the whole app lifecycle (build + host + database) is typically
+    inside one product.
+
+    '
+  parent: null
+- id: documentation-tools
+  name: Documentation generation / platform tools
+  description: 'Documentation generators, AI documentation assistants, documentation platforms, API reference
+    platforms, and developer portals.
+
+    '
+  parent: null
+subcategories:
+- id: editor-agent
+  name: Editor/IDE native agent (VS Code extension host)
+  parent: vscode-ide-agents
+- id: forked-ide
+  name: Standalone AI IDE (fork of VS Code / Code OSS)
+  parent: vscode-ide-agents
+- id: native-ide
+  name: Standalone editor built from scratch / lightly derived
+  parent: vscode-ide-agents
+- id: autocomplete
+  name: Autocomplete-focused assistant
+  parent: vscode-ide-agents
+- id: plugin-agent
+  name: IDE plugin + agent workspace
+  parent: vscode-ide-agents
+- id: cli-agent
+  name: Terminal agent (CLI/REPL)
+  parent: terminal-agents
+- id: cli+ide-hybrid
+  name: Terminal agent with IDE extension
+  parent: terminal-agents
+- id: cloud-agent
+  name: Cloud-hosted autonomous agent
+  parent: autonomous-agents
+- id: full-stack-generator
+  name: Hosted generator of a whole application
+  parent: app-builders
+  description: Hosted generator of a whole application (frontend + backend + hosting).
+- id: ui-generator
+  name: Generates ui/screens/components from prompts
+  parent: app-builders
+  description: Generates UI/screens/components from prompts (often React).
+- id: platform
+  name: Hosted documentation platform
+  parent: documentation-tools
+  description: Hosted documentation platform (editor, hosting, search, analytics).
+- id: generator
+  name: Generates documentation from source code or api specifications.
+  parent: documentation-tools
+  description: Generates documentation from source code or API specifications.
+- id: ai-assistant
+  name: Ai assistant that helps write/maintain documentation in place.
+  parent: documentation-tools
+  description: AI assistant that helps write/maintain documentation in place.
+- id: api-platform
+  name: Api reference generation, publishing, and developer portals.
+  parent: documentation-tools
+  description: API reference generation, publishing, and developer portals.
+- id: self-hosted
+  name: Self-hosted server/assistant you run on your own infrastructure.
+  parent: open-source-byok
+  description: Self-hosted server/assistant you run on your own infrastructure.
+- id: researcher
+  name: Research prototype agent
+  parent: autonomous-agents
+  description: Research prototype agent (academic origin; may need setup).
+- id: web-ide
+  name: Browser-hosted IDE
+  parent: vscode-ide-agents
+  description: Browser-hosted IDE with integrated AI coding/building (e.g., Firebase Studio).

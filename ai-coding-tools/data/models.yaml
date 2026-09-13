@@ -1,0 +1,112 @@
+# models.yaml — coding-focused model families referenced across the repository.
+# This is NOT a benchmark list. It documents which model families are commonly
+# used by coding agents and which providers serve them. Do not treat model
+# numbers/capabilities here as current — model names change constantly.
+# Last verified: September 2026
+
+models:
+- id: claude-family
+  name: Anthropic Claude
+  providers:
+  - anthropic
+  - amazon-bedrock
+  - vertex-ai
+  local: false
+  notes: 'Widely used in coding agents (Claude Code, Cline, Kilo Code, Aider, Crush). Sonnet/Opus variants
+    commonly referenced. Plandex and Claude Code can authenticate through Claude subscription accounts.
+
+    '
+  provider: Anthropic
+  last_verified: 2026-09
+- id: gpt-family
+  name: OpenAI GPT series
+  providers:
+  - openai
+  - azure-openai
+  local: false
+  notes: Used by GitHub Copilot, codex CLI, Cursor, OpenCode, etc.
+  provider: OpenAI
+  last_verified: 2026-09
+- id: codex-family
+  name: OpenAI Codex series
+  providers:
+  - openai
+  local: false
+  notes: 'Model family purpose-built for coding in the Codex CLI and cloud Codex agent. Not to be confused
+    with the Codex product.
+
+    '
+  provider: OpenAI
+  last_verified: 2026-09
+- id: gemini-family
+  name: Google Gemini series
+  providers:
+  - google
+  - vertex-ai
+  local: false
+  notes: Backs Gemini CLI, Jules, Firebase Studio, Trae, and many BYOK tools.
+  provider: Google
+  last_verified: 2026-09
+- id: llama-family
+  name: Meta Llama (open weights)
+  providers:
+  - ollama
+  - lm-studio
+  - together
+  - groq
+  - amazon-bedrock
+  - openrouter
+  local: true
+  notes: Open-weight family commonly run locally at 7B–70B sizes.
+  provider: Meta
+  last_verified: 2026-09
+- id: qwen-family
+  name: Alibaba Qwen / Qwen-Coder (open weights)
+  providers:
+  - ollama
+  - lm-studio
+  - together
+  - openrouter
+  local: true
+  notes: Qwen2.5-Coder used by Refact for completions; popular for local coding.
+  provider: Alibaba (Qwen)
+  last_verified: 2026-09
+- id: deepseek-family
+  name: DeepSeek (DeepSeek-V/R) — open weights
+  providers:
+  - ollama
+  - openrouter
+  - deepseek-api
+  local: true
+  notes: Low-cost hosted + open weights; frequently used BYOK in Aider/Plandex/Cline.
+  provider: DeepSeek
+  last_verified: 2026-09
+- id: kimi-family
+  name: Moonshot Kimi (open weights)
+  providers:
+  - ollama
+  - openrouter
+  - moonshot-api
+  local: true
+  notes: Kimi K3 line is targeted by Open Interpreter (Rust) and Crush.
+  provider: Moonshot AI
+  last_verified: 2026-09
+- id: glm-family
+  name: Zhipu GLM (open weights)
+  providers:
+  - ollama
+  - openrouter
+  - zai-api
+  local: true
+  notes: GLM coding agents targeted by Open Interpreter (Rust).
+  provider: Zhipu (Z.ai)
+  last_verified: 2026-09
+- id: grok-family
+  name: xAI Grok family
+  providers:
+  - xai-api
+  - openrouter
+  local: false
+  notes: Available in Cursor, Bolt, and many BYOK tools.
+  provider: xAI
+  last_verified: 2026-09
