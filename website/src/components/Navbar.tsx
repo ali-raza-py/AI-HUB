@@ -15,20 +15,20 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-white/10 bg-[#081018]/80 backdrop-blur-xl">
+    <nav className="sticky top-0 z-50 border-b border-[#20282a] bg-[#111315]">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" onClick={() => setOpen(false)} className="group flex items-center gap-3">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-[#b8f2e7] text-[#081018] shadow-[0_0_22px_rgba(126,225,225,.2)] transition-transform group-hover:rotate-6">
+          <span className="grid h-9 w-9 place-items-center rounded-none bg-[#f5c542] text-[#111315] transition-transform group-hover:rotate-3">
             <span className="font-display text-lg font-bold">A</span>
           </span>
-          <span className="font-display text-base font-bold tracking-tight text-white">AI<span className="text-[#7edce3]">-HUB</span></span>
+          <span className="font-display text-base font-bold tracking-tight text-white">AI<span className="text-[#f5c542]">-HUB</span></span>
         </Link>
         <div className="hidden items-center gap-1 md:flex">
           {links.map(link => {
             const active = location.pathname.startsWith(link.to)
-            return <Link key={link.to} to={link.to} className={`relative rounded-lg px-3 py-2 text-sm transition-colors ${active ? 'text-white' : 'text-[#91aab5] hover:text-white'}`}>
+            return <Link key={link.to} to={link.to} className={`relative border px-3 py-2 text-[11px] font-mono uppercase tracking-wider transition-colors ${active ? 'border-[#f5c542] bg-[#f5c542] text-[#111315]' : 'border-transparent text-[#91aab5] hover:border-[#5d6463] hover:text-white'}`}>
               {link.label}
-              {active && <span className="absolute inset-x-3 -bottom-[19px] h-0.5 rounded-full bg-[#7edce3]" />}
+              {active && <span className="absolute -right-px -top-px h-1.5 w-1.5 bg-[#111315]" />}
             </Link>
           })}
         </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
           <button aria-label="Toggle color theme" onClick={toggle} className="grid h-9 w-9 place-items-center rounded-lg text-[#91aab5] transition hover:bg-white/5 hover:text-white">
             {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
           </button>
-          <Link to="/tools" className="button-primary inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition">
+          <Link to="/tools" className="inline-flex items-center gap-2 border border-[#f5c542] bg-[#f5c542] px-4 py-2 text-[11px] font-bold uppercase tracking-wider text-[#111315] transition hover:bg-[#fff0a9]">
             Start exploring <ArrowUpRight size={15} />
           </Link>
         </div>
