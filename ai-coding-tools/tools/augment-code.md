@@ -1,4 +1,285 @@
-# Augment Code
+---
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+---
+
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+------
+title: Augment Code
+tool: augment-code
+date: 2026-09
+---# Augment Code
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 

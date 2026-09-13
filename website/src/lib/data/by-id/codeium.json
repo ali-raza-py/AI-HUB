@@ -1,0 +1,33 @@
+{
+  "name": "Codeium",
+  "id": "codeium",
+  "category": "vscode-ide-agents",
+  "subcategory": "autocomplete",
+  "company": "Windsurf (formerly Codeium)",
+  "official_website": "https://windsurf.com/",
+  "status": "renamed",
+  "official_status_notes": "Codeium was renamed to Windsurf in 2024-2025; product continues under the Windsurf brand.",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "byok": false,
+  "local_models": false,
+  "mcp": true,
+  "autonomy_level": 3,
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free tier; paid plans under Windsurf brand.",
+  "best_for": "Historical; users should evaluate Windsurf.",
+  "strengths": "Fast completions, chat, some agent features.",
+  "weaknesses": "Rebranded into Windsurf; treat Codeium name as legacy.",
+  "student_friendliness": "good",
+  "hardware_requirements": "Any.",
+  "cpu_only": true,
+  "alternatives": [
+    "windsurf",
+    "github-copilot"
+  ],
+  "full_page": false,
+  "vscode": true,
+  "jetbrains": true
+}

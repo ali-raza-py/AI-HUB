@@ -1,0 +1,38 @@
+[
+  {
+    "id": "vscode-ide-agents",
+    "name": "VS Code / IDE AI agents",
+    "description": "AI coding assistants and agents that run inside an editor or IDE (VS Code, JetBrains, Cursor, Windsurf, Zed, Trae, Kiro, etc.).\n",
+    "parent": null
+  },
+  {
+    "id": "terminal-agents",
+    "name": "Terminal / CLI coding agents",
+    "description": "AI agents controlled from a terminal or command line. Many can read a repository, edit files, and execute commands.\n",
+    "parent": null
+  },
+  {
+    "id": "open-source-byok",
+    "name": "Open-source / BYOK / local AI tools",
+    "description": "Tools distinguished by open-source licensing, bring-your-own-key model access, and/or local-model (Ollama, LM Studio, llama.cpp) support. These attributes overlap heavily with categories A and B and are tracked per-tool in tools.yaml, not as separate products.\n",
+    "parent": null
+  },
+  {
+    "id": "autonomous-agents",
+    "name": "Autonomous software-engineering agents",
+    "description": "Agents designed to work on a task end-to-end with minimal human intervention: plan, edit, test, iterate, and produce a pull request.\n",
+    "parent": null
+  },
+  {
+    "id": "app-builders",
+    "name": "AI app / UI / full-stack builders",
+    "description": "Hosted products that generate, deploy, and iterate on applications from natural-language prompts. Different from editor agents: the whole app lifecycle (build + host + database) is typically inside one product.\n",
+    "parent": null
+  },
+  {
+    "id": "documentation-tools",
+    "name": "Documentation generation / platform tools",
+    "description": "Documentation generators, AI documentation assistants, documentation platforms, API reference platforms, and developer portals.\n",
+    "parent": null
+  }
+]

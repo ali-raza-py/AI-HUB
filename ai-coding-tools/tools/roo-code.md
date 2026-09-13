@@ -1,4 +1,285 @@
-# Roo Code
+---
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+---
+
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+------
+title: Roo Code
+tool: roo-code
+date: 2026-09
+---# Roo Code
 
 > Last verified: 2026-09 · Status: archived · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 

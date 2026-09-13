@@ -1,4 +1,285 @@
-# Gemini Code Assist
+---
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+---
+
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+------
+title: Gemini Code Assist
+tool: gemini-code-assist
+date: 2026-09
+---# Gemini Code Assist
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 3 — see [the autonomy scale](../docs/autonomy-scale.md).
 

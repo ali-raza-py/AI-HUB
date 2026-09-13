@@ -1,0 +1,27 @@
+{
+  "name": "Swimm",
+  "id": "swimm",
+  "category": "documentation-tools",
+  "subcategory": "ai-assistant",
+  "company": "Swimm",
+  "official_website": "https://swimm.io/",
+  "status": "active",
+  "official_status_notes": "AI documentation that stays in sync with code (docs tied to specific files/lines).",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free tier for small teams; paid plans.",
+  "best_for": "Teams wanting code-coupled docs that catch drift.",
+  "strengths": "Doc-code bindings, AI generation, PR-adjacent upkeep.",
+  "weaknesses": "Requires workflow adoption; proprietary.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "mintlify",
+    "gitbook",
+    "readme"
+  ],
+  "full_page": false,
+  "web": true
+}

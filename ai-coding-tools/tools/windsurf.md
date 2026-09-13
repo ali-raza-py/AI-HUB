@@ -1,4 +1,285 @@
-# Windsurf
+---
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+---
+
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+------
+title: Windsurf
+tool: windsurf
+date: 2026-09
+---# Windsurf
 
 > Last verified: 2026-09 · Status: acquired · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 

@@ -1,0 +1,28 @@
+{
+  "name": "Swagger / OpenAPI tooling",
+  "id": "openapi",
+  "category": "documentation-tools",
+  "subcategory": "api-platform",
+  "company": "SmartBear / OpenAPI Initiative",
+  "official_website": "https://swagger.io/",
+  "status": "active",
+  "official_status_notes": "Industry-standard OpenAPI spec + Swagger UI/Editor/Codegen tooling. Not AI-powered; a spec + doc ecosystem.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "Apache-2.0 (Swagger UI, Editor)",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Open source core; paid SwaggerHub.",
+  "best_for": "Describing REST APIs and generating interactive docs.",
+  "strengths": "Ubiquitous standard; tooling everywhere.",
+  "weaknesses": "UI/docs less modern that newer platforms.",
+  "student_friendliness": "excellent",
+  "alternatives": [
+    "redoc",
+    "fern",
+    "readme"
+  ],
+  "full_page": false,
+  "github": "https://github.com/OAI/OpenAPI-Specification",
+  "web": true
+}

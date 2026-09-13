@@ -1,0 +1,28 @@
+{
+  "name": "Sphinx",
+  "id": "sphinx",
+  "category": "documentation-tools",
+  "subcategory": "generator",
+  "company": "Sphinx team (open source)",
+  "official_website": "https://www.sphinx-doc.org/",
+  "status": "active",
+  "official_status_notes": "Python documentation generator (reStructuredText) widely used for project docs incl. Read the Docs.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "BSD",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free, open source.",
+  "best_for": "Python projects and complex documentation suites.",
+  "strengths": "Extensions, autodoc, i18n.",
+  "weaknesses": "Steep reStructuredText learning curve.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "docusaurus",
+    "mintlify",
+    "pdoc"
+  ],
+  "full_page": true,
+  "github": "https://github.com/sphinx-doc/sphinx",
+  "official_docs": "https://www.sphinx-doc.org/en/master/"
+}

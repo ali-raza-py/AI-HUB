@@ -1,0 +1,26 @@
+{
+  "name": "TypeDoc",
+  "id": "typedoc",
+  "category": "documentation-tools",
+  "subcategory": "generator",
+  "company": "Open source",
+  "official_website": "https://typedoc.org/",
+  "status": "active",
+  "official_status_notes": "TypeScript documentation generator from .ts source.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "Apache-2.0",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free, open source.",
+  "best_for": "TypeScript/TSX APIs.",
+  "strengths": "Great TS type reflection.",
+  "weaknesses": "TS only.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "jsdoc",
+    "sphinx"
+  ],
+  "full_page": false,
+  "github": "https://github.com/TypeStrong/TypeDoc"
+}

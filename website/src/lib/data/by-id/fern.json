@@ -1,0 +1,27 @@
+{
+  "name": "Fern",
+  "id": "fern",
+  "category": "documentation-tools",
+  "subcategory": "api-platform",
+  "company": "Fern",
+  "official_website": "https://buildwithfern.com/",
+  "status": "active",
+  "official_status_notes": "Generate API docs + SDKs from OpenAPI; markdown-based, git-centric; AI assistant on docs.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "Apache-2.0",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Open-source; hosted tier paid.",
+  "best_for": "API companies wanting docs + typed SDKs from one OpenAPI source.",
+  "strengths": "One source (OpenAPI) -> docs + SDKs, code-native.",
+  "weaknesses": "Setup complexity for non-API products.",
+  "student_friendliness": "possible-but-limited",
+  "alternatives": [
+    "redoc",
+    "readme",
+    "openapi"
+  ],
+  "full_page": false,
+  "github": "https://github.com/fern-api/fern"
+}

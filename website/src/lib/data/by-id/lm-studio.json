@@ -1,0 +1,33 @@
+{
+  "name": "LM Studio",
+  "id": "lm-studio",
+  "category": "open-source-byok",
+  "subcategory": "local-ai-runtime",
+  "company": "Element Labs, Inc.",
+  "official_website": "https://lmstudio.ai",
+  "status": "active",
+  "official_status_notes": "Proprietary (free) desktop app for discovering and running local LLMs (MLX + llama.cpp runtimes) on Windows/macOS/Linux; includes SDKs and the `lms` CLI; new 'Bionic' agent layer (verified Sep 2026).",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary (free for personal use â€” verify current terms)",
+  "byok": false,
+  "local_models": true,
+  "mcp": "Unknown",
+  "desktop": true,
+  "autonomy_level": 0,
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free download for personal use; verify licensing for other uses.",
+  "cpu_only": true,
+  "best_for": "A friendly GUI for local models without the terminal; good for model discovery, testing, and local serving.",
+  "strengths": "Polished desktop UX; MLX + GGUF; OpenAI-compatible local server; free.",
+  "weaknesses": "Closed source; heavier than pure CLIs; not a coding agent.",
+  "student_friendliness": "excellent",
+  "hardware_requirements": "Same model-size RAM math as other local runtimes (3Bâ€“8B on 8 GB).",
+  "alternatives": [
+    "ollama",
+    "gpt4all",
+    "jan"
+  ],
+  "full_page": false
+}

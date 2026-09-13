@@ -1,0 +1,26 @@
+{
+  "name": "JSDoc",
+  "id": "jsdoc",
+  "category": "documentation-tools",
+  "subcategory": "generator",
+  "company": "Open source",
+  "official_website": "https://jsdoc.app/",
+  "status": "active",
+  "official_status_notes": "JavaScript documentation generator from JSDoc comments.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "Apache-2.0",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free, open source.",
+  "best_for": "Vanilla JS libraries.",
+  "strengths": "Standard, plugin ecosystem.",
+  "weaknesses": "Weak type awareness; TS projects prefer TypeDoc.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "typedoc",
+    "pdoc"
+  ],
+  "full_page": false,
+  "github": "https://github.com/jsdoc/jsdoc"
+}

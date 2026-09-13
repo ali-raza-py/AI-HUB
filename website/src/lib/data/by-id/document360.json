@@ -1,0 +1,27 @@
+{
+  "name": "Document360",
+  "id": "document360",
+  "category": "documentation-tools",
+  "subcategory": "platform",
+  "company": "Document360 (SaaS Labs)",
+  "official_website": "https://document360.com/",
+  "status": "active",
+  "official_status_notes": "Proprietary knowledge-base SaaS; verify plans and features on the official site.",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "free": "Unknown",
+  "free_tier": "Unknown",
+  "pricing_summary": "Subscription SaaS with tiered plans â€” verify current pricing on the official pricing page.",
+  "best_for": "Teams building public or internal knowledge bases with structured editing and search.",
+  "strengths": "Purpose-built KB editor, hosting, search and analytics.",
+  "weaknesses": "Proprietary; subscription cost; not a code-doc generator.",
+  "student_friendliness": "possible-but-limited",
+  "alternatives": [
+    "gitbook",
+    "mintlify"
+  ],
+  "cpu_only": true,
+  "full_page": false,
+  "web": true
+}

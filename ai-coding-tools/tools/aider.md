@@ -1,4 +1,285 @@
-# Aider
+---
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+---
+
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+------
+title: Aider
+tool: aider
+date: 2026-09
+---# Aider
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 3 — see [the autonomy scale](../docs/autonomy-scale.md).
 

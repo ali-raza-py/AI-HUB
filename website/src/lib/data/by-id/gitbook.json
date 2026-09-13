@@ -1,0 +1,27 @@
+{
+  "name": "GitBook",
+  "id": "gitbook",
+  "category": "documentation-tools",
+  "subcategory": "platform",
+  "company": "GitBook",
+  "official_website": "https://www.gitbook.com/",
+  "status": "active",
+  "official_status_notes": "Collaborative documentation platform with AI search/answers; vs. static generators it is a hosted knowledge management platform.",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free tier; Pro/Org plans.",
+  "best_for": "Teams that want collaborative, hosted docs with AI search.",
+  "strengths": "Ease of use, collaboration, AI Q&A.",
+  "weaknesses": "Less code-native than git-based generators.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "mintlify",
+    "docusaurus"
+  ],
+  "full_page": false,
+  "official_docs": "https://gitbook.com/docs",
+  "web": true
+}

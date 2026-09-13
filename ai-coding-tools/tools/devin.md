@@ -1,4 +1,285 @@
-# Devin
+---
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+---
+
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+------
+title: Devin
+tool: devin
+date: 2026-09
+---# Devin
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 5 — see [the autonomy scale](../docs/autonomy-scale.md).
 

@@ -1,0 +1,40 @@
+{
+  "name": "website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:data && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "build:data": "node scripts/build-data.mjs",
+    "lint:md": "node scripts/link-check.mjs",
+    "validate:registry": "cd ../ai-coding-tools && python scripts/validate-data.py",
+    "validate": "node scripts/link-check.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "framer-motion": "^13.2.0",
+    "lucide-react": "^1.45.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-icons": "^5.7.0",
+    "react-router-dom": "^6.30.6",
+    "react-syntax-highlighter": "^16.1.1",
+    "remark-gfm": "^4.0.1",
+    "remark-stringify": "^11.0.0",
+    "tailwindcss": "^4.3.3",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.1.0",
+    "vfile": "^6.0.3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "CodeRabbit",
+  "id": "coderabbit",
+  "category": "autonomous-agents",
+  "subcategory": "code-review-bot",
+  "company": "CodeRabbit Inc.",
+  "official_website": "https://www.coderabbit.ai",
+  "official_docs": "https://docs.coderabbit.ai",
+  "status": "active",
+  "official_status_notes": "Proprietary AI code-review service for GitHub/GitLab pull requests (plus IDE and CLI review surfaces); free trial and a free plan for open source (verify eligibility on the official page) (verified Sep 2026).",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "byok": false,
+  "web": true,
+  "mcp": "Unknown",
+  "autonomy_level": 2,
+  "free": false,
+  "free_tier": true,
+  "pricing_summary": "Free trial; paid plans per seat; free plan for open-source projects â€” verify on the official pricing page.",
+  "cpu_only": true,
+  "best_for": "Automated first-pass review on every PR with committable suggestions.",
+  "strengths": "PR-native; learns from repo history; IDE and CLI review options.",
+  "weaknesses": "Closed source; review noise and limits vary by plan; enterprise pricing.",
+  "student_friendliness": "possible-but-limited",
+  "hardware_requirements": "Cloud service; thin client.",
+  "alternatives": [
+    "greptile",
+    "qodo",
+    "sweep"
+  ],
+  "full_page": false
+}

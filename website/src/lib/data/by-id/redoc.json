@@ -1,0 +1,22 @@
+{
+  "name": "Redoc",
+  "id": "redoc",
+  "category": "documentation-tools",
+  "subcategory": "api-platform",
+  "company": "Redocly",
+  "official_website": "https://redocly.com/",
+  "status": "active",
+  "official_status_notes": "Open-source OpenAPI renderer (redoc) + Redocly paid platform.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "MIT",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "redoc is open source; Redocly is paid.",
+  "best_for": "Beautiful interactive API references from OpenAPI.",
+  "strengths": "Great rendering; easy to embed.",
+  "weaknesses": "API-centric only.",
+  "full_page": false,
+  "github": "https://github.com/Redocly/redoc",
+  "student_friendliness": "good"
+}

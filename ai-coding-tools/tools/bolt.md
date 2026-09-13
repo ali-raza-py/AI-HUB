@@ -1,4 +1,285 @@
-# Bolt.new
+---
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+---
+
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+------
+title: Bolt.New
+tool: bolt
+date: 2026-09
+---# Bolt.new
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 

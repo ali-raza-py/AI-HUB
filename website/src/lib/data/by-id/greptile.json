@@ -1,0 +1,33 @@
+{
+  "name": "Greptile",
+  "id": "greptile",
+  "category": "autonomous-agents",
+  "subcategory": "code-review-bot",
+  "company": "Greptile (Tabnam, Inc.)",
+  "official_website": "https://www.greptile.com",
+  "official_docs": "https://docs.greptile.com",
+  "status": "active",
+  "official_status_notes": "Proprietary AI code reviewer built on a codebase graph index; Starter is free for one developer (unlimited repos, 50 credits/mo) and Pro is $30/seat/mo per the official FAQ; self-hosted option for enterprise; MCP integration and a CLI (verified Sep 2026).",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "byok": false,
+  "web": true,
+  "cli": true,
+  "mcp": true,
+  "autonomy_level": 2,
+  "free": false,
+  "free_tier": true,
+  "pricing_summary": "Starter: free for 1 developer (50 credits/mo); Pro: $30/seat/mo â€” verify current pricing on the official page.",
+  "cpu_only": true,
+  "best_for": "Teams that want context-aware PR review that learns repo conventions.",
+  "strengths": "Codebase-graph context; custom rules; MCP and CLI; self-host for enterprise.",
+  "weaknesses": "Closed source; credit-based pricing can be unpredictable on large PRs.",
+  "student_friendliness": "possible-but-limited",
+  "hardware_requirements": "Cloud service; thin client.",
+  "alternatives": [
+    "coderabbit",
+    "qodo"
+  ],
+  "full_page": false
+}

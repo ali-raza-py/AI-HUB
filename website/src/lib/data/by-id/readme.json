@@ -1,0 +1,28 @@
+{
+  "name": "ReadMe",
+  "id": "readme",
+  "category": "documentation-tools",
+  "subcategory": "api-platform",
+  "company": "ReadMe",
+  "official_website": "https://readme.com/",
+  "status": "active",
+  "official_status_notes": "Hosted API documentation platform with interactive requests, MCP support, and AI features.",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "free": false,
+  "free_tier": true,
+  "pricing_summary": "Paid plans; free tier for some use cases.",
+  "best_for": "API-first products needing interactive reference docs.",
+  "strengths": "Interactive API explorers, versioning, enterprise SSO.",
+  "weaknesses": "Hosted; code-reference depth varies.",
+  "student_friendliness": "possible-but-limited",
+  "alternatives": [
+    "mintlify",
+    "redoc",
+    "fern"
+  ],
+  "full_page": false,
+  "official_docs": "https://docs.readme.com",
+  "web": true
+}

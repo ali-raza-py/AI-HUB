@@ -1,0 +1,27 @@
+{
+  "name": "pdoc",
+  "id": "pdoc",
+  "category": "documentation-tools",
+  "subcategory": "generator",
+  "company": "pdoc maintainers (open source)",
+  "official_website": "https://pdoc.dev/",
+  "github": "https://github.com/mitmproxy/pdoc",
+  "status": "active",
+  "official_status_notes": "Free-software Python API doc generator.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "Unknown (verify)",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free and open source; no hosted product.",
+  "best_for": "Python API reference generated directly from docstrings.",
+  "strengths": "Lightweight, zero-config defaults, live-reload preview.",
+  "weaknesses": "Python only; no AI features; minimal theming.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "sphinx",
+    "jsdoc"
+  ],
+  "cpu_only": true,
+  "full_page": false
+}

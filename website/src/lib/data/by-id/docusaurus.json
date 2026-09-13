@@ -1,0 +1,28 @@
+{
+  "name": "Docusaurus",
+  "id": "docusaurus",
+  "category": "documentation-tools",
+  "subcategory": "generator",
+  "company": "Meta (open source)",
+  "official_website": "https://docusaurus.io/",
+  "github": "https://github.com/facebook/docusaurus",
+  "status": "active",
+  "official_status_notes": "Open-source (MIT) static documentation site generator powered by React/MDX; versioning + i18n built in (verified Sep 2026).",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "MIT",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free, open source.",
+  "best_for": "Projects that want git-native, markdown-driven docs with versioning.",
+  "strengths": "Mature, extensible, huge ecosystem.",
+  "weaknesses": "Requires React knowledge for advanced customization.",
+  "student_friendliness": "excellent",
+  "alternatives": [
+    "mintlify",
+    "gitbook",
+    "sphinx"
+  ],
+  "full_page": true,
+  "official_docs": "https://docusaurus.io/docs"
+}

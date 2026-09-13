@@ -1,4 +1,285 @@
-# OpenAI Codex CLI
+---
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+---
+
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+------
+title: OpenAI Codex CLI
+tool: openai-codex-cli
+date: 2026-09
+---# OpenAI Codex CLI
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 

@@ -1,4 +1,285 @@
-# Claude Code
+---
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+---
+
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+------
+title: Claude Code
+tool: claude-code
+date: 2026-09
+---# Claude Code
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 

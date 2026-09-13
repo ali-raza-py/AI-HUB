@@ -1,0 +1,27 @@
+{
+  "name": "Doxygen",
+  "id": "doxygen",
+  "category": "documentation-tools",
+  "subcategory": "generator",
+  "company": "Dimitri van Heesch & contributors",
+  "official_website": "https://www.doxygen.nl/",
+  "github": "https://github.com/doxygen/doxygen",
+  "status": "active",
+  "official_status_notes": "Long-maintained multi-language doc generator.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "GPL-2.0",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free and open source; no hosted product.",
+  "best_for": "C/C++ reference documentation from source comments.",
+  "strengths": "Multi-language (C/C++/Python/Java and more), call/class graphs, very mature.",
+  "weaknesses": "Dated default output; configuration-heavy; no AI.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "docfx",
+    "jsdoc"
+  ],
+  "cpu_only": true,
+  "full_page": false
+}

@@ -1,4 +1,285 @@
-# OpenCode
+---
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+---
+
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+------
+title: OpenCode
+tool: opencode
+date: 2026-09
+---# OpenCode
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 3 — see [the autonomy scale](../docs/autonomy-scale.md).
 

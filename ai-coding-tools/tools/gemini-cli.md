@@ -1,4 +1,285 @@
-# Gemini CLI
+---
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+---
+
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+------
+title: Gemini CLI
+tool: gemini-cli
+date: 2026-09
+---# Gemini CLI
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 

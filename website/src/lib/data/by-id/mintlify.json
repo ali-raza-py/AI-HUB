@@ -1,0 +1,28 @@
+{
+  "name": "Mintlify",
+  "id": "mintlify",
+  "category": "documentation-tools",
+  "subcategory": "platform",
+  "company": "Mintlify",
+  "official_website": "https://mintlify.com/",
+  "status": "active",
+  "official_status_notes": "Modern documentation platform with AI chat/agents ('agent-ready' docs), API references, llms.txt support (verified Sep 2026).",
+  "last_verified": "2026-09",
+  "open_source": false,
+  "license": "Proprietary",
+  "free": false,
+  "free_tier": true,
+  "pricing_summary": "Free tier for open source; paid plans.",
+  "best_for": "Startups needing beautiful, AI-readable product docs + API references.",
+  "strengths": "Fast setup, browser/agent-friendly output, great DX.",
+  "weaknesses": "Hosted platform; not free at scale.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "gitbook",
+    "readme",
+    "docusaurus"
+  ],
+  "full_page": true,
+  "official_docs": "https://mintlify.com/docs",
+  "web": true
+}

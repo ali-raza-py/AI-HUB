@@ -1,0 +1,27 @@
+{
+  "name": "DocFX",
+  "id": "docfx",
+  "category": "documentation-tools",
+  "subcategory": "generator",
+  "company": ".NET Foundation / Microsoft (open source)",
+  "official_website": "https://dotnet.github.io/docfx/",
+  "github": "https://github.com/dotnet/docfx",
+  "status": "active",
+  "official_status_notes": "Open-source .NET documentation generator.",
+  "last_verified": "2026-09",
+  "open_source": true,
+  "license": "MIT",
+  "free": true,
+  "free_tier": true,
+  "pricing_summary": "Free and open source; static-site output you host.",
+  "best_for": ".NET API reference plus markdown conceptual docs.",
+  "strengths": "Reads .NET XML doc comments; markdown pipeline; templates.",
+  "weaknesses": ".NET-centric; no AI features.",
+  "student_friendliness": "good",
+  "alternatives": [
+    "doxygen",
+    "docusaurus"
+  ],
+  "cpu_only": true,
+  "full_page": false
+}

@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "cline",
+    "name": "cline",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "vs code users who want a fully transparent, byok, mcp-connected coding agent.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "kilo-code",
+    "name": "kilo code",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "students and developers who want a free, open-source vs code agent with many model options and no markup.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "continue",
+    "name": "continue",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "learning how byok/local-model ide assistants work; forks and the oss codebase.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "github-copilot",
+    "name": "github copilot",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "github-centric developers who want integrated autocomplete + chat + agents in one subscription.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "gemini-code-assist",
+    "name": "gemini code assist",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "gemini users who want a no-cost ide assistant for personal projects.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "cursor",
+    "name": "cursor",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "developers who want a polished agentic ide with very good codebase understanding.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "windsurf",
+    "name": "windsurf",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "developers who like a cursor-style agentic ide with a strong cascade/agent model.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "void",
+    "name": "void",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "developers who want an open-source cursor-like editor with byok/local privacy.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "pearai",
+    "name": "pearai",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "experimenting with open-source agent ide forks.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "sixth",
+    "name": "sixth",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "unknown",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "augment-code",
+    "name": "augment code",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "teams that want code-review, incident, ticket-to-pr automation agents.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "tabnine",
+    "name": "tabnine",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "enterprises needing on-prem/air-gapped code assistance.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "sourcegraph cody",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "enterprise sourcegraph customers.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "roo-code",
+    "name": "roo code",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "learning from its design; evaluating forks like zoocode.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "twinny",
+    "name": "twinny",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "local-model (ollama) chat and fim completion in vs code at zero cost.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "supermaven",
+    "name": "supermaven",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "fast inline completions with very large context.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "qodo",
+    "name": "qodo",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "automated pr code review and quality gating.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "refact",
+    "name": "refact.ai",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "developers who want an autonomous agent that can be self-hosted.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "jetbrains-junie",
+    "name": "jetbrains junie",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "jetbrains users who want an in-ide agent with byok.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "zed-ai",
+    "name": "zed ai",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "performance-focused developers open to switching editors.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "firebase-studio",
+    "name": "firebase studio",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "rapid full-stack app prototyping in the browser while it remains available (until mar 2027).",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "amazon-kiro",
+    "name": "amazon kiro",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "developers who want a spec-first, plan-heavy agent workflow with a full ide.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "trae",
+    "name": "trae",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "free cursor alternative if available in your region.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "aide",
+    "name": "aide",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "unknown",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "amazon-bedrock-ide",
+    "name": "amazon bedrock ide",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "teams standardized on aws bedrock models.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "gitlab-duo",
+    "name": "gitlab duo",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "gitlab-hosted teams wanting ai across mr/issue/ci lifecycle.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "watsonx-code-assistant",
+    "name": "ibm watsonx code assistant",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "ibm mainframe/hybrid modernization projects.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "claude-code",
+    "name": "claude code",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "terminal-first workflows, long-running agent sessions, and deep repo understanding.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "openai-codex-cli",
+    "name": "openai codex cli",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "developers who want a capable, scriptable terminal agent with openai models.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "openai-codex",
+    "name": "codex (cloud agent)",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "github ask-an-agent-for-a-pr workflows.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "gemini-cli",
+    "name": "gemini cli",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "free, open-source terminal agent for gemini models with mcp support, extensions, and a vs code companion.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "codeium",
+    "name": "codeium",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "historical; users should evaluate windsurf.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "opencode",
+    "name": "opencode",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "an open-source, actively developed terminal coding agent with plan/build agents, a desktop app (beta), and broad provider support.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "aider",
+    "name": "aider",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "terminal-first editing with tight git integration and many model options.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "goose",
+    "name": "goose",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "extensible, mcp-first agentic automation and local-model use.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "openhands",
+    "name": "openhands",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "autonomous, sandboxed software-engineering agents and research.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "crush",
+    "name": "crush",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "terminal-first agents with maximal model/provider flexibility.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "pythagora",
+    "name": "pythagora",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "understanding earlier autonomous full-app pilot agents.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "swe-agent",
+    "name": "swe-agent",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "academic study of agent-computer interfaces and swe-bench-style evaluation.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "swe-rex",
+    "name": "swe-rex",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "research comparison; swe-bench style autonomous solving.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "gpt-pilot",
+    "name": "gpt-pilot",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "learning about early autonomous app-piloting agents.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "mentat",
+    "name": "mentat",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "historical study of cli editing agents.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "plandex",
+    "name": "plandex",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "large multi-file tasks with reviewable, rollback-able diffs.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "open-interpreter",
+    "name": "open interpreter",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "running capable agents on open-weight/local models.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "warp-ai",
+    "name": "warp ai",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "teams automating pr review/incident workflows ('factories').",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "amazon-q-cli",
+    "name": "amazon q cli",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "aws-centric shell workflows.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "github-copilot-cli",
+    "name": "github copilot cli",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "github users who want copilot chat in the terminal.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "claude-agent-sdk",
+    "name": "claude agent sdk",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "programmatic automation on top of the claude code engine.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "tabby",
+    "name": "tabby",
+    "description": "",
+    "category": "open-source-byok",
+    "capabilities": " ",
+    "bestFor": "teams that need an in-house autocomplete server with data privacy.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "autocoderover",
+    "name": "autocoderover",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "research and swe-bench-style experiments.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "agentless",
+    "name": "agentless",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "understanding non-agentic (planned) issue-solving pipelines.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "devin",
+    "name": "devin",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "long-running autonomous tasks with review-based handoff.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "jules",
+    "name": "jules",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "delegating well-scoped github tasks to a pr-producing cloud agent.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "factory-droid",
+    "name": "factory droid",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "enterprise engineering orgs running autonomous agents at scale.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "sweep",
+    "name": "sweep",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "historical: issue-to-pr automation on github.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "replit-agent",
+    "name": "replit agent",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "non-experts and founders who want chat-to-app with hosting included.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "lovable",
+    "name": "lovable",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "founders prototyping saas products quickly.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "bolt",
+    "name": "bolt.new",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "rapid full-stack prototypes; modern front-end builds.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "rapid ui/front-end generation inside the vercel/next.js ecosystem.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "magic",
+    "name": "magic",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "product-minded users who want an autonomous engineer on a real repo.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "tempo",
+    "name": "tempo",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "designer-friendly app prototyping.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "databutton",
+    "name": "databutton",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "historically: no-code ai app building.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "marscode",
+    "name": "marscode",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "free cloud ide + agent with vs code compatibility.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "mintlify",
+    "name": "mintlify",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "startups needing beautiful, ai-readable product docs + api references.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "gitbook",
+    "name": "gitbook",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "teams that want collaborative, hosted docs with ai search.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "docusaurus",
+    "name": "docusaurus",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "projects that want git-native, markdown-driven docs with versioning.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "swimm",
+    "name": "swimm",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "teams wanting code-coupled docs that catch drift.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "readme",
+    "name": "readme",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "api-first products needing interactive reference docs.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "fern",
+    "name": "fern",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "api companies wanting docs + typed sdks from one openapi source.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "openapi",
+    "name": "swagger / openapi tooling",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "describing rest apis and generating interactive docs.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "redoc",
+    "name": "redoc",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "beautiful interactive api references from openapi.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "typedoc",
+    "name": "typedoc",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "typescript/tsx apis.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "jsdoc",
+    "name": "jsdoc",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "vanilla js libraries.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "sphinx",
+    "name": "sphinx",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "python projects and complex documentation suites.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "document360",
+    "name": "document360",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "teams building public or internal knowledge bases with structured editing and search.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "pdoc",
+    "name": "pdoc",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "python api reference generated directly from docstrings.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "doxygen",
+    "name": "doxygen",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "c/c++ reference documentation from source comments.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "docfx",
+    "name": "docfx",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": ".net api reference plus markdown conceptual docs.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "amazon-q-developer",
+    "name": "amazon q developer",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "developers already in the aws ecosystem who want an ide agent with aws-aware guidance.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "continue-cli",
+    "name": "continue cli",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "developers who want one open ecosystem for both ide and terminal agents with byok/local models.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "ollama",
+    "name": "ollama",
+    "description": "",
+    "category": "open-source-byok",
+    "capabilities": " ",
+    "bestFor": "the easiest way to run local models (3bâ€“8b class) on modest hardware; pairs with cline, continue, aider, twinny, and more.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "llama-cpp",
+    "name": "llama.cpp",
+    "description": "",
+    "category": "open-source-byok",
+    "capabilities": " ",
+    "bestFor": "lowest-level local inference engine for quantized gguf models on cpu; for builders who want control, not polish.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "lm-studio",
+    "name": "lm studio",
+    "description": "",
+    "category": "open-source-byok",
+    "capabilities": " ",
+    "bestFor": "a friendly gui for local models without the terminal; good for model discovery, testing, and local serving.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "gpt4all",
+    "name": "gpt4all",
+    "description": "",
+    "category": "open-source-byok",
+    "capabilities": " ",
+    "bestFor": "private, offline local chat on cpu-only machines; localdocs for personal-document q&a.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "jan",
+    "name": "jan",
+    "description": "",
+    "category": "open-source-byok",
+    "capabilities": " ",
+    "bestFor": "an open-source local ai app with mcp and agent features plus optional cloud providers.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "qwen-code",
+    "name": "qwen code",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "an open-source claude code-style terminal agent with qwen and multi-provider model access.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "cursor-cli",
+    "name": "cursor cli",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "cursor subscribers who want the same agent in the terminal and ci.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "autogpt",
+    "name": "autogpt",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "building and running goal-driven agent workflows â€” self-hosted or managed.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "devika",
+    "name": "devika",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "studying an early open-source autonomous software-engineer design.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "metagpt",
+    "name": "metagpt",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "multi-agent 'software company' simulations and one-prompt project scaffolding with a strong research lineage.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "gpt-engineer",
+    "name": "gpt-engineer",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "historical study: the og prompt-to-codegen cli experiment that seeded lovable.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "coderabbit",
+    "name": "coderabbit",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "automated first-pass review on every pr with committable suggestions.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "greptile",
+    "name": "greptile",
+    "description": "",
+    "category": "autonomous-agents",
+    "capabilities": " ",
+    "bestFor": "teams that want context-aware pr review that learns repo conventions.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "theia-ide",
+    "name": "theia ide",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "privacy-conscious developers and organizations wanting an open, vendor-neutral ide with ai agents and full model control.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "codegeex",
+    "name": "codegeex",
+    "description": "",
+    "category": "vscode-ide-agents",
+    "capabilities": " ",
+    "bestFor": "open-weight autocomplete/code assistant you can self-host for privacy or research.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "mkdocs",
+    "name": "mkdocs",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "python projects that want simple, theme-able markdown docs (material for mkdocs ecosystem).",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "starlight",
+    "name": "starlight",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "astro-based project docs and content sites with excellent performance.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "vitepress",
+    "name": "vitepress",
+    "description": "",
+    "category": "documentation-tools",
+    "capabilities": " ",
+    "bestFor": "vue/vite projects that want fast, clean docs with vue components inline.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "onlook",
+    "name": "onlook",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "design-minded developers who want to edit a real react codebase visually with ai.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "bolt-diy",
+    "name": "bolt.diy",
+    "description": "",
+    "category": "app-builders",
+    "capabilities": " ",
+    "bestFor": "self-hosting a bolt.new-style app builder with your own model keys, including local models.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "shell-gpt",
+    "name": "shellgpt",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "quick shell-command and code generation in any shell without a full coding agent.",
+    "platforms": "",
+    "keywords": ""
+  },
+  {
+    "id": "llm-cli",
+    "name": "llm",
+    "description": "",
+    "category": "terminal-agents",
+    "capabilities": " ",
+    "bestFor": "scriptable llm access from the terminal with logged history â€” useful for pipelines and learning.",
+    "platforms": "",
+    "keywords": ""
+  }
+]

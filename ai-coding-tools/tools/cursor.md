@@ -1,4 +1,285 @@
-# Cursor
+---
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+---
+
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+------
+title: Cursor
+tool: cursor
+date: 2026-09
+---# Cursor
 
 > Last verified: 2026-09 · Status: active · Autonomy: Level 4 — see [the autonomy scale](../docs/autonomy-scale.md).
 
